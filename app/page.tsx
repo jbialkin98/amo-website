@@ -10,8 +10,8 @@ export default function Home() {
   }
 
   return (
-    <main className='font-Bodoni'>
-      <Navbar handleClick={handleClick} />
+    <main>
+      <Navbar handleClick={handleClick} underline="Home" />
       <Homepage />
       <Footer handleClick={handleClick} />
     </main>

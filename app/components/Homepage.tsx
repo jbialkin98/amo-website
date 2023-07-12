@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Homepage() {
     return (
-        <div className="text-black">
+        <div className="font-Bodoni">
             <div className="grid grid-cols-3 mb-6 relative w-screen">
 
             <div className="col-span-1 max-h-[90vh] flex flex-col justify-center items-center text-7xl">

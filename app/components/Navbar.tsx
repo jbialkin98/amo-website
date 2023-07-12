@@ -1,22 +1,52 @@
 'use client'
+import { headers } from "next/dist/client/components/headers";
 import React from "react";
 
 
 export default function Navbar(props: any) {
+    function addUnderline(tabName: string) {
+        return tabName === props.underline.toUpperCase() ? true: false;
+    }
+
+    const NavHeaders = () => {
+        const navArray = ["HOME", "ABOUT", "MEMBERS", "MEDIA", "EVENTS", "CONTACT"];
+        const headers = navArray.map(tab => {
+            return (
+                <a 
+                    className={addUnderline(tab) ? "underline underline-offset-4 hover:scale-110 transition duration-75": 
+                        "hover:scale-110 transition duration-75"}
+                    key={tab}
+                    href={tab !== "HOME" ? `/${tab.toLowerCase()}`: "/"}
+                >
+                    {tab}
+                </a>
+            )
+        })
+        console.log(headers);
+        return (
+            <nav className="flex gap-6 text-slate-400 px-5">
+                {headers}
+            </nav>
+        )
+
+    }
+
     return (
-    <div 
+    <div
         className="bg-white flex items-center justify-between font-Josefin h-20 border-2 py-5 px-10 
         tracking-wider sticky top-0 z-50 w-screen"
     >
         <a className="text-xl text-black hover:scale-110 transition duration-75" href="/">AMO BRASS</a>
-        <nav className="flex gap-6 text-slate-400 px-5">
+        <NavHeaders />
+        {/* <nav className="flex gap-6 text-slate-400 px-5">
+            {navHeaders};
             <a className="underline underline-offset-4 hover:scale-110 transition duration-75" href="/">HOME</a>
             <a href="/about" className="hover:scale-110 transition duration-75">ABOUT</a>
             <a href="members.html" className="hover:scale-110 transition duration-75">MEMBERS</a>
             <a className="hover:scale-110 transition duration-75">MEDIA</a>
             <a className="hover:scale-110 transition duration-75">EVENTS</a>
             <a className="hover:scale-110 transition duration-75">CONTACT</a>
-        </nav>
+        </nav> */}
         <div className="flex gap-3">
             <a 
                 onClick={() => props.handleClick('https://www.instagram.com/amobrass')}

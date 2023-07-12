@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer(props: any) {
     return (
-        <footer className="bg-white flex flex-col gap-3 items-center justify-center font-Josefin h-28 border-2 py-5 px-10 tracking-wider mt-auto w-screen z-50">
+        <footer className="bg-white flex flex-col gap-3 items-center justify-center font-Josefin h-28 border-2 py-5 px-10 tracking-wider w-screen z-50 mt-auto mb-0">
         <h1 className="text-xl">AMO BRASS</h1>
         <div className="flex gap-3">
             <a 

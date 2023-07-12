@@ -10,7 +10,7 @@ export default function Home() {
   }
 
   return (
-    <main>
+    <main className='flex flex-col min-h-screen'>
       <Navbar handleClick={handleClick} underline="Home" />
       <Homepage />
       <Footer handleClick={handleClick} />

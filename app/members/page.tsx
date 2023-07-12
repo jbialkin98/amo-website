@@ -1,7 +1,8 @@
 'use client'
 
 import Navbar from '../components/Navbar'
-import About from '../components/About';
+import MemberCard from '../components/MemberCard';
+import MembersPage from '../components/MembersPage';
 import Footer from '../components/Footer'
 
 export default function Home() {
@@ -11,8 +12,8 @@ export default function Home() {
 
   return (
     <main className='flex flex-col min-h-screen'>
-        <Navbar handleClick={handleClick} underline="About" />
-        <About />
+        <Navbar handleClick={handleClick} underline="Members" />
+        <MembersPage />
         <Footer handleClick={handleClick} />
     </main>
   )

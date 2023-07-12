@@ -6,7 +6,7 @@ export default function About() {
             <div className="h-[43vh] w-screen max-w-[1400px] bg-[url('/img/amo-couch.jpg')] bg-no-repeat bg-cover bg-center flex items-end justify-end">
                 <p className="text-white text-7xl font-Josefin pr-8 pb-2">ABOUT</p>
             </div>
-            <div className="max-w-[75%] text-2xl my-10 font-Quattrocento ">
+            <div className="max-w-[75%] text-2xl my-10 font-Quattrocento">
                 <p>
                     Lauded by acclaimed trumpeter Allan Dean as "wonderful people and excellent players", Amo Brass is an emerging chamber music ensemble which blends musical entertainment with artistic excellence. Comprised of Yale School of Music 
                     alumni, the ensemble is based in the greater New Haven area and is passionate about education, outreach, and performance. Members have been previous Fischoff winners and Aspen Brass Quintet Seminar residents, and the ensemble 

@@ -8,10 +8,10 @@ export default function Navbar(props: any) {
         className="bg-white flex items-center justify-between font-Josefin h-20 border-2 py-5 px-10 
         tracking-wider sticky top-0 z-50 w-screen"
     >
-        <a className="text-xl text-black hover:scale-110 transition duration-75" href="page.tsx">AMO BRASS</a>
+        <a className="text-xl text-black hover:scale-110 transition duration-75" href="/">AMO BRASS</a>
         <nav className="flex gap-6 text-slate-400 px-5">
-            <a className="underline underline-offset-4 hover:scale-110 transition duration-75" href="index.html">HOME</a>
-            <a href="about.html" className="hover:scale-110 transition duration-75">ABOUT</a>
+            <a className="underline underline-offset-4 hover:scale-110 transition duration-75" href="/">HOME</a>
+            <a href="/about" className="hover:scale-110 transition duration-75">ABOUT</a>
             <a href="members.html" className="hover:scale-110 transition duration-75">MEMBERS</a>
             <a className="hover:scale-110 transition duration-75">MEDIA</a>
             <a className="hover:scale-110 transition duration-75">EVENTS</a>

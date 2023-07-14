@@ -1,12 +1,22 @@
 'use client'
 import { headers } from "next/dist/client/components/headers";
 import React from "react";
+import Hamburger from 'hamburger-react'
+
 
 
 export default function Navbar(props: any) {
     function addUnderline(tabName: string) {
         return tabName === props.underline.toUpperCase() ? true: false;
     }
+
+    const [isOpen, setOpen] = React.useState(false)
+
+    // const [hamburgerClicked, setHamburgerClicked] = React.useState(false);
+
+    // function handleHamburger() {
+    //     setHamburgerClicked(oldHamburgerClicked => !oldHamburgerClicked);
+    // }
 
     const NavHeaders = () => {
         const navArray = ["HOME", "ABOUT", "MEMBERS", "MEDIA", "EVENTS", "CONTACT"];
@@ -22,7 +32,6 @@ export default function Navbar(props: any) {
                 </a>
             )
         })
-        console.log(headers);
         return (
             <nav className="flex gap-6 text-slate-400 px-5">
                 {headers}
@@ -37,6 +46,22 @@ export default function Navbar(props: any) {
         tracking-wider sticky top-0 z-50 w-screen"
     >
         <a className="text-xl text-black hover:scale-110 transition duration-75" href="/">AMO BRASS</a>
+        <div className="lg:hidden">
+            <Hamburger 
+                toggled={isOpen} toggle={setOpen} size={24}
+                onToggle={toggled => {
+                    if (toggled) {
+                    console.log("Toggled!")
+                    } else {
+                    console.log("Not toggled")
+                    }
+                }}
+            />
+        </div>
+
+        {/* <div className="menu-icons">
+            <i  onClick={() => handleHamburger} className={hamburgerClicked ? "fas fa-times": "fas fa-bars"}>hello</i>
+        </div> */}
         <NavHeaders />
         {/* <nav className="flex gap-6 text-slate-400 px-5">
             {navHeaders};

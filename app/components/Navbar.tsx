@@ -56,7 +56,7 @@ export default function Navbar(props: any) {
             )
         })
         return (
-            <div className={`flex gap-6 text-slate-400 px-5 ${isOpen ? "flex-col bg-black mt-10 relative top-24": "flex"}`}>
+            <div className={`flex gap-6 text-slate-400 px-5 ${isOpen ? "flex-col items-end relative": "flex"}`}>
                 {headers}
             </div>
         )
@@ -118,25 +118,37 @@ export default function Navbar(props: any) {
                 
             {/* Navbar for small screens */}
             <div
-                className="absolute bg-white flex items-center justify-between font-Josefin h-20 border-2 py-5 px-10 
-                tracking-wider sticky top-0 z-50 w-screen lg:hidden"
+                className={!isOpen ? "border-b-2 bg-white flex items-center font-Josefin h-20  py-5 px-10 tracking-wider sticky top-0 z-50 w-screen lg:hidden": 
+                "bg-white flex items-center font-Josefin h-20  py-5 px-10 tracking-wider sticky top-0 z-50 w-screen lg:hidden"}
             >
                 <a className="text-xl text-black hover:scale-110 transition duration-75" href="/">AMO BRASS</a>
-
-                    <Hamburger 
-                        toggled={isOpen} toggle={setOpen} size={24}
-                        onToggle={toggled => {
-                            if (toggled) {
-                            console.log("Toggled!")
-                            } else {
-                            console.log("Not toggled")
-                            }
-                        }}
-                    />
-                    {isOpen && <NavHeaders />}
+                
+                <div className="ml-auto">
+                    {/* {isOpen && <NavHeaders />} */}
+                    <div>
+                        <Hamburger 
+                            toggled={isOpen} toggle={setOpen} size={24}
+                            onToggle={toggled => {
+                                if (toggled) {
+                                console.log("Toggled!")
+                                } else {
+                                console.log("Not toggled")
+                                }
+                            }}
+                        />
+                    </div>
+                    
+                </div>
+                
+                    
                 {/* <NavHeaders />
                 <SocialMediaIcons /> */}
             </div>
+            {isOpen && 
+                <div className="border-b-2 flex flex-col items-end px-11 pb-5 gap-5 drop-shadow-2xl">
+                    <NavHeaders />
+                    <SocialMediaIcons />                    
+                </div>}
         </nav>
     )
 }

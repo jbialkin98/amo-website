@@ -2,6 +2,7 @@
 import { headers } from "next/dist/client/components/headers";
 import React from "react";
 import Hamburger from 'hamburger-react'
+import { motion, AnimatePresence } from "framer-motion"
 
 
 
@@ -144,11 +145,15 @@ export default function Navbar(props: any) {
                 {/* <NavHeaders />
                 <SocialMediaIcons /> */}
             </div>
-            {isOpen && 
-                <div className="border-b-2 flex flex-col items-end px-11 pb-5 gap-5 drop-shadow-2xl">
-                    <NavHeaders />
-                    <SocialMediaIcons />                    
-                </div>}
+                {isOpen && 
+                    <motion.div 
+                        initial={{ y: -250}}
+                        animate={{ y: 0 }} 
+                        className="h-screen border-b-2 flex flex-col items-center px-11 pb-5 gap-5 drop-shadow-2xl"
+                    >
+                        <NavHeaders />
+                        <SocialMediaIcons />                    
+                    </motion.div>}
         </nav>
     )
 }

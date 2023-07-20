@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion"
+
 
 export default function Homepage() {
     return (
@@ -6,8 +8,18 @@ export default function Homepage() {
             <div className="grid grid-cols-3 mb-6 relative w-screen">
 
             <div className="col-span-1 max-h-[90vh] flex flex-col justify-center items-center text-7xl">
-                <p className="relative right-10">Amo</p>
-                <p className="relative left-10">Brass</p>
+                <motion.p 
+                    initial={{ opacity: 0, x: -100 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 1}}
+                    className="relative right-10"
+                >Amo</motion.p>
+                <motion.p 
+                    initial={{ opacity: 0, x: 100 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 2}}
+                    className="relative left-10"
+                >Brass</motion.p>
             </div>
             <div className="col-span-2 max-h-[90vh]">
                 <img className="w-full max-h-[90vh] object-cover" src="/img/home-image.jpg" alt="Amo Image" />

@@ -9,29 +9,33 @@ export default function Home() {
   }
 
   return (
-    <main className='flex flex-col items-center min-h-screen text-xl'>
+    <main className='flex flex-col items-center min-h-screen'>
         <Navbar handleClick={handleClick} underline="Members" />
-        <div
-          className='flex flex-col gap-3 items-center p-6 font-Josefin text-2xl'>
-          <p>Connor Holland</p>
-          <img src="../img/connor.jpg" alt="Connor" className='h-[400px] w-[400px] relative'/>
+        <div className='text-xl md: grid md:grid-cols-3 md:items-center md:h-full md:m-10 lg:h-[60vh]'>
+          <div
+            className='flex flex-col gap-3 items-center p-6 pb-0 font-Josefin text-2xl'>
+          <p>David Seder</p>
+          <img src="../img/david.jpg" alt="David" className='h-[400px] w-[400px] relative object-cover object-top mb-6'/>
+          </div>
+          <div className='px-6 pb-6 font-Quattrocento md:col-span-2'>
+            <p className='mb-5'>
+              Originally from Lexington, KY, David Seder began his musical journey at six years old when he took his first 
+              piano lesson. While attending the School for the Creative and Performing Arts (SCAPA) at Lafayette High School, 
+              he picked up the trombone. Throughout his middle and high school years, David took lessons at the Central Music 
+              Academy, performed with the Central Kentucky Youth Orchestras, participated in All-State Band and the Governor's 
+              School for the Arts, and was mentored by piano instructor Greg Partain and trombone instructor Anastasi Fafalios. 
+              After high school, David began his studies in trombone performance at the University of Kentucky studying with 
+              Professor Bradley Kerns. In his sophomore year of college at the University of Kentucky, David was the winner 
+              of the UK Symphony Orchestra concerto competition and performed the David Concertino. He has also been a finalist 
+              in the ITF Van Haney Orchestral Competition. During the summers, David has participated in festivals such as the 
+              Sewanee Summer Music Festival, the Prague Summer Nights Music Festival, Norfolk Chamber Music Festival, and was a 
+              New Horizons fellow at the Aspen Music Festival and School (2019). He is a substitute musician for the New World 
+              Symphony and regularly plays with the Symphoria Orchestra and Louisville Orchestra. In 2019, David released his debut 
+              album Timestamp, through New Branch Records on all streaming platforms. After UK, David continued on to study with 
+              Scott Hartman at Yale University and graduated in May of 2022. This fall, he will return to Yale to tackle an MMA.
+            </p>
+          </div>
         </div>
-        <p
-          className='px-6 pb-6 font-Quattrocento'>
-          Connor Holland began playing the trumpet at age 12 while growing up in 
-          Jacksonville, FL. Holland attended Douglas Anderson School for the Arts 
-          for High School and during that time, as a member of the Jacksonville 
-          Symphony Youth Orchestra, he began private trumpet lessons with Mr. Hunter 
-          Eberly. Holland attended Florida State University studying music education. 
-          During his time there, he was the winner of the Florida MTNA Young Artist 
-          Competition, Bryan Goff Trumpet Competition, and the LaGrange Symphony 
-          Orchestra Concerto Competition. He has attended Festival Napa Valley Holland 
-          currently resides in New Haven, CT serving as the Morse Fellow for Yale Music 
-          in Schools Initiative and as the woodwind/brass and piano instructor at The 
-          Foote School. He received his MM and MMA from the Yale School of Music in 2021 
-          and 2022, respectively. Holland loves listening to the radio and spending time 
-          outdoors.
-        </p>
         <Footer handleClick={handleClick} />
     </main>
   )

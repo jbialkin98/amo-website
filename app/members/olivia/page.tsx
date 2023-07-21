@@ -9,29 +9,36 @@ export default function Home() {
   }
 
   return (
-    <main className='flex flex-col items-center min-h-screen text-xl'>
+    <main className='flex flex-col items-center min-h-screen'>
         <Navbar handleClick={handleClick} underline="Members" />
-        <div
-          className='flex flex-col gap-3 items-center p-6 font-Josefin text-2xl'>
-          <p>Connor Holland</p>
-          <img src="../img/connor.jpg" alt="Connor" className='h-[400px] w-[400px] relative'/>
+        <div className='text-xl md: grid md:grid-cols-3 md:items-center md:h-[60vh] md:m-10'>
+          <div
+            className='flex flex-col gap-3 items-center p-6 pb-0 font-Josefin text-2xl'>
+          <p>Olivia Martinez</p>
+          <img src="../img/olivia-crop.jpg" alt="Olivia" className='h-[400px] w-[400px] relative object-cover object-top mb-6'/>
         </div>
-        <p
-          className='px-6 pb-6 font-Quattrocento'>
-          Connor Holland began playing the trumpet at age 12 while growing up in 
-          Jacksonville, FL. Holland attended Douglas Anderson School for the Arts 
-          for High School and during that time, as a member of the Jacksonville 
-          Symphony Youth Orchestra, he began private trumpet lessons with Mr. Hunter 
-          Eberly. Holland attended Florida State University studying music education. 
-          During his time there, he was the winner of the Florida MTNA Young Artist 
-          Competition, Bryan Goff Trumpet Competition, and the LaGrange Symphony 
-          Orchestra Concerto Competition. He has attended Festival Napa Valley Holland 
-          currently resides in New Haven, CT serving as the Morse Fellow for Yale Music 
-          in Schools Initiative and as the woodwind/brass and piano instructor at The 
-          Foote School. He received his MM and MMA from the Yale School of Music in 2021 
-          and 2022, respectively. Holland loves listening to the radio and spending time 
-          outdoors.
-        </p>
+        <div className='px-6 pb-6 font-Quattrocento md:col-span-2'>
+          <p className='mb-4'>
+            Olivia Martinez is a horn player from Indiana. She has had the great fortune to perform 
+            across the world in places such as China, Carnegie Hall, the Kennedy Center, Disneyland, 
+            Vienna, and Prague. This summer, she performed at the International Women's Brass 
+            Conference with the Chromatic Brass Collective, which seeks to increase the visibility 
+            of underrepresented people in music. Olivia is Principal Horn of Bay Atlantic Symphony 
+            and freelances and teaches around Philadelphia.
+          </p>
+          <p className='mb-4'>
+            Olivia often performs in jazz, new, and early music groups. She studied at Indiana 
+            University with Richard Seraphinoff, Dale Clevenger, and Jeff Nelsen and studied with 
+            William Purvis for her Master's at Yale University. She is in the second year of her 
+            Doctorate at Temple University studying with Randy Gardner.
+          </p>
+          <p>
+            Aside from inhaling good books and food, Olivia likes to run. She ran her first 
+            marathon recently in Pittsburgh. On any given day, you might find her dog sitting or 
+            playing trivia with friends.
+          </p>
+        </div>
+        </div>
         <Footer handleClick={handleClick} />
     </main>
   )

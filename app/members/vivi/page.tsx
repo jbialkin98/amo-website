@@ -9,29 +9,37 @@ export default function Home() {
   }
 
   return (
-    <main className='flex flex-col items-center min-h-screen text-xl'>
+    <main className='flex flex-col items-center min-h-screen'>
         <Navbar handleClick={handleClick} underline="Members" />
-        <div
-          className='flex flex-col gap-3 items-center p-6 font-Josefin text-2xl'>
-          <p>Josh Bialkin</p>
-          <img src="../img/josh.jpg" alt="Josh" className='h-[400px] w-[400px] relative'/>
+        <div className='text-xl md: grid md:grid-cols-3 md:items-center md:h-full md:m-10 lg:h-[80vh] xl:h-[60vh]'>
+          <div
+            className='flex flex-col gap-3 items-center p-6 pb-0 font-Josefin text-2xl'>
+          <p>Vivian Kung</p>
+          <img src="../img/vivi.jpg" alt="Vivi" className='h-[400px] w-[400px] relative object-cover object-top mb-6'/>
+          </div>
+          <div className='px-6 pb-6 font-Quattrocento md:col-span-2'>
+            <p className='mb-5'>
+              Vivian Kung is a Taiwanese American tuba player, music educator, and aspiring crazy cat lady. Ms. Kung 
+              currently serves as the principal tuba of Symphony in C, and is the first Asian woman to hold the position. 
+              She is also the inaugural Yaffe fellow for the Yale Music in Schools Initiative for 2022-2023.
+            </p>
+            <p className='mb-5'>
+              Vivian has been the recipient of various solo competition awards. Ms. Kung is a two time prize winner 
+              in the Susan Slaughter tuba competition at the International Women's Brass Conference. While studying in 
+              Los Angeles, she was a winner in the brass division of the 37th Pasadena Showcase House Instrumental competition. 
+              In 2019, Ms. Kung received first place in the Music Teacher's National Association brass division, placing first 
+              out of an initial 600 competitors. In 2018, she received first place in the Northwestern Tuba and Euphonium 
+              conference Young Artist solo competition. Ms. Kung has been seen on stage with the Los Angeles Philharmonic, 
+              Symphony in C, Symphoria Orchestra, American Youth Symphony, Hudson Valley Philharmonic, The Orchestra Now, New 
+              Haven Symphony Orchestra, Chromatic Brass Collective and on stage at Warner Bros. Studios. She is a substitute 
+              musician for the New World Symphony. Vivian received training at the UCLA Herb Alpert School of Music, where she 
+              studied with Aubrey Foard. She graduated with Latin honors and three degrees in music education, tuba performance, 
+              and Asian American studies. In 2022, Ms. Kung received her masters from the Yale School of Music, where she studied 
+              Carol Jantsch. In her free time, you can find Vivi petting her cats, reading a book with unnatural speed, and watching 
+              cooking shows on Netflix.
+            </p>
+          </div>
         </div>
-        <p
-          className='px-6 pb-6 font-Quattrocento'>
-          Connor Holland began playing the trumpet at age 12 while growing up in 
-          Jacksonville, FL. Holland attended Douglas Anderson School for the Arts 
-          for High School and during that time, as a member of the Jacksonville 
-          Symphony Youth Orchestra, he began private trumpet lessons with Mr. Hunter 
-          Eberly. Holland attended Florida State University studying music education. 
-          During his time there, he was the winner of the Florida MTNA Young Artist 
-          Competition, Bryan Goff Trumpet Competition, and the LaGrange Symphony 
-          Orchestra Concerto Competition. He has attended Festival Napa Valley Holland 
-          currently resides in New Haven, CT serving as the Morse Fellow for Yale Music 
-          in Schools Initiative and as the woodwind/brass and piano instructor at The 
-          Foote School. He received his MM and MMA from the Yale School of Music in 2021 
-          and 2022, respectively. Holland loves listening to the radio and spending time 
-          outdoors.
-        </p>
         <Footer handleClick={handleClick} />
     </main>
   )

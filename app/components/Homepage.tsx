@@ -8,7 +8,9 @@ export default function Homepage() {
             <div className="grid grid-cols-3 mb-6 w-screen relative">
 
             <div 
-                className="absolute text-center transform -translate-x-1/2 -translate-y-1/2 top-1/4 left-1/2 md:-translate-x-0 md:-translate-y-0 md:top-0 md:left-0 md:relative md:col-span-1 max-h-[90vh] md:flex flex-col 
+                className="absolute text-center transform -translate-x-1/2 -translate-y-1/2 
+                    top-1/4 left-1/2 md:-translate-x-0 md:-translate-y-0 md:top-0 md:left-0 
+                    md:relative md:col-span-1 max-h-[90vh] md:flex flex-col 
                     justify-center items-center text-6xl sm:text-7xl"
             >
                 <motion.p 

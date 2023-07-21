@@ -4,7 +4,7 @@ import MemberCard from "./MemberCard";
 export default function MembersPage() {
     return (
         <div 
-            className="text-xl w-screen m-7 flex flex-wrap gap-7 justify-center font-Quattrocento"
+            className=" text-xl m-7 flex flex-wrap gap-7 justify-center font-Quattrocento"
         >
             <MemberCard 
                 memberName="connor"

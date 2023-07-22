@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className='flex flex-col items-center min-h-screen'>
         <Navbar handleClick={handleClick} underline="Members" />
-        <div className='text-xl md: grid md:grid-cols-3 md:items-center md:h-[60vh] md:m-10'>
+        <div className='text-xl md: grid md:grid-cols-3 md:items-center md:min-h-min md:m-10'>
           <div
             className='flex flex-col gap-3 items-center p-6 pb-0 font-Josefin text-2xl'>
             <p>Connor Holland</p>

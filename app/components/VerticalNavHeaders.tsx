@@ -15,7 +15,7 @@ export default function VerticalNavHeaders(props: any) {
             )
         })
         return (
-            <div className={`flex gap-6 text-slate-400 px-5 flex-col items-center"`}>
+            <div className={`flex gap-6 text-slate-400 px-5 flex-col items-center text-center`}>
                 {headers}
             </div>
         )

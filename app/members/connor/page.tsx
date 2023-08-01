@@ -3,7 +3,7 @@
 import Navbar from '@/app/components/Navbar';
 import Footer from '@/app/components/Footer';
 
-export default function Home() {
+export default function AboutConnor() {
   function handleClick(link: string) {
     window.open(`${link}`,'_blank');
   }

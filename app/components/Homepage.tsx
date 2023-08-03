@@ -31,12 +31,20 @@ export default function Homepage() {
             </div>
             </div>
 
-            <div 
+            {/* <div 
                 className="filter bg-black/50 h-[55vh] w-screen text-center bg-[url('/img/allan.jpg')] relative top-5 bg-no-repeat bg-cover 
                 flex flex-col justify-center items-center bg-[left_calc(50%)_top_calc(40%)] text-white text-4xl font-Quattrocento mb-10"
             >
                 <p>“Wonderful people and excellent players.”</p>
                 <p>-Allan Dean, Trumpeter</p>
+            </div> */}
+
+            <div className="flex flex-col justify-center lg:flex-row md:items-center">
+                <img src="img/allan.jpg" alt="Amo and Allan Dean" />
+                <div className="m-5 text-center font-Quattrocento font-bold text-2xl md:text-3xl lg:text-4xl">
+                    <p className="mb-2 md:mb-3 lg:mb-4">“Wonderful people and excellent players.”</p>
+                    <p>-Allan Dean, Trumpeter</p>
+                </div>
             </div>
 
             <div className="py-5 w-full flex flex-col items-center">

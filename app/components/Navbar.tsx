@@ -1,10 +1,9 @@
 'use client'
-import { headers } from "next/dist/client/components/headers";
+import { motion } from "framer-motion";
+import Hamburger from 'hamburger-react';
 import React from "react";
 import HorizontalNavHeaders from "./HorizontalNavHeaders";
 import VerticalNavHeaders from "./VerticalNavHeaders";
-import Hamburger from 'hamburger-react'
-import { motion, AnimatePresence } from "framer-motion"
 
 
 
@@ -14,6 +13,39 @@ export default function Navbar(props: any) {
     }
 
     const [isOpen, setOpen] = React.useState(false)
+
+    function useWindowSize() {
+        // Initialize state with undefined width/height so server and client renders match
+        // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
+        const [windowSize, setWindowSize] = React.useState({
+          width: 0,
+          height: 0,
+        });
+        React.useEffect(() => {
+          // Handler to call on window resize
+          function handleResize() {
+            // Set window width/height to state
+            setWindowSize({
+              width: window.innerWidth,
+              height: window.innerHeight,
+            });
+          }
+          // Add event listener
+          window.addEventListener("resize", handleResize);
+          // Call handler right away so state gets updated with initial window size
+          handleResize();
+          // Remove event listener on cleanup
+          return () => window.removeEventListener("resize", handleResize);
+        }, []); // Empty array ensures that effect is only run on mount
+        return windowSize;
+      }
+      
+      let windowSize = useWindowSize();
+
+      if (windowSize.width > 1023 && isOpen == true) {
+        setOpen(false);
+        console.log(isOpen);
+      }
 
     const SocialMediaIcons = () => {
         return (
@@ -64,9 +96,9 @@ export default function Navbar(props: any) {
                             toggled={isOpen} toggle={setOpen} size={24}
                             onToggle={toggled => {
                                 if (toggled) {
-                                console.log("Toggled!")
+                                    
                                 } else {
-                                console.log("Not toggled")
+                                
                                 }
                             }}
                         />

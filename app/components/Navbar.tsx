@@ -40,11 +40,10 @@ export default function Navbar(props: any) {
         return windowSize;
       }
       
-      let windowSize = useWindowSize();
+      const windowSize = useWindowSize();
 
       if (windowSize.width > 1023 && isOpen == true) {
         setOpen(false);
-        console.log(isOpen);
       }
 
     const SocialMediaIcons = () => {

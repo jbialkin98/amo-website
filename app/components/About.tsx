@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
     return (
         <div className="flex flex-col items-center">
-            <div className="h-[43vh] w-screen max-w-[1400px] bg-[url('/img/amo-couch.jpg')] bg-no-repeat bg-cover bg-center flex items-end justify-end">
+            <div className="h-[43vh] w-screen  bg-[url('/img/amo-couch-copy-2.jpg')] bg-no-repeat bg-cover bg-center flex items-end justify-end">
                 <p className="text-white text-7xl font-Josefin pr-8 pb-2">ABOUT</p>
             </div>
             <div className="max-w-[75%] text-2xl my-10 font-Quattrocento">

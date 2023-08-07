@@ -5,3 +5,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.carousel .slide img {
+    pointer-events: all;
+}

@@ -39,9 +39,9 @@ export default function Homepage() {
                 <p>-Allan Dean, Trumpeter</p>
             </div> */}
 
-            <div className="flex flex-col justify-center lg:flex-row md:items-center">
-                <img src="img/allan.jpg" alt="Amo and Allan Dean" />
-                <div className="m-5 text-center font-Quattrocento font-bold text-2xl md:text-3xl lg:text-4xl">
+            <div className="flex flex-col w-screen justify-center lg:flex-row md:items-center">
+                <img src="img/allan.jpg" alt="Amo and Allan Dean" className="mb-3" />
+                <div className="m-5 text-center font-Quattrocento font-bold text-2xl md:text-3xl lg:text-3xl">
                     <p className="mb-2 md:mb-3 lg:mb-4">“Wonderful people and excellent players.”</p>
                     <p>-Allan Dean, Trumpeter</p>
                 </div>

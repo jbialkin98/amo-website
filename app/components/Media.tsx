@@ -57,10 +57,10 @@ export default function Media() {
                 <YouTube videoId="vq1BQqn9bBE" opts={opts}/>
                 <YouTube videoId="QfcOW6ZbVfw" opts={opts}/>
                 <YouTube videoId="bEp_cF3K23I" opts={opts}/>
-            </div>
-            <div className="m-10">
-                <ImageCarousel />
-            </div>
+            </div>   
+                <div className="m-10 max-w-[600px]">
+                    <ImageCarousel />
+                </div>
         </div>
     )
 }

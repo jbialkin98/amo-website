@@ -48,7 +48,7 @@ export default function Media() {
     return (
         <div>
             <div className="flex justify-center">
-                <div className="h-[40vh] w-screen bg-[url('/img/amo-fischoff.jpg')] bg-no-repeat bg-cover bg-top flex items-end justify-end">
+                <div className="h-[43vh] w-screen bg-[url('/img/amo-fischoff.jpg')] bg-no-repeat bg-cover bg-top flex items-end justify-end">
                     <p className="text-white text-7xl font-Josefin pr-8 pb-2">MEDIA</p>
                 </div>
             </div>

@@ -11,11 +11,11 @@ export default function AboutConnor() {
   return (
     <main className='flex flex-col items-center min-h-screen'>
         <Navbar handleClick={handleClick} underline="Members" />
-        <div className='text-xl md: grid md:grid-cols-3 md:items-center md:min-h-min md:m-10'>
+        <div className='text-xl lg:grid lg:grid-cols-3 lg:items-center lg:min-h-min lg:m-10'>
           <div
             className='flex flex-col gap-3 items-center p-6 pb-0 font-Josefin text-2xl'>
             <p>Connor Holland</p>
-            <img src="../img/connor.jpg" alt="Connor" className='h-[400px] w-[400px] md:col-span-1'/>
+            <img src="../img/connor.jpg" alt="Connor" className='object-cover object-left h-[400px] w-[400px] md:col-span-1'/>
           </div>
           <p
             className='p-6 font-Quattrocento md:col-span-2'>

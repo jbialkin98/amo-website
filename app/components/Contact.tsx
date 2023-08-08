@@ -32,7 +32,7 @@ export default function Contact() {
 
   return (
     <div className="font-Josefin text-lg md:text-xl">
-        <div className="h-[43vh] w-screen  bg-[url('/img/avaloch-crop.jpg')] bg-no-repeat bg-cover bg-top flex items-end justify-end">
+        <div className="h-[43vh] w-screen  bg-[url('/img/line-crop.jpg')] bg-no-repeat bg-cover bg-center flex items-end justify-end">
             <p className="text-white text-7xl font-Josefin pr-8 pb-2">CONTACT</p>
         </div>
         {!formSubmitted && 

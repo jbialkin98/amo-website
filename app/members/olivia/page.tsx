@@ -12,7 +12,7 @@ export default function AboutOlivia() {
     <main className='flex flex-col items-center min-h-screen'>
         <Navbar handleClick={handleClick} underline="Members" />
 
-          <div className='text-xl md:grid md:grid-cols-3 md:items-center md:min-h-min md:m-10'>
+          <div className='text-xl lg:grid lg:grid-cols-3 lg:items-center lg:min-h-min lg:m-10'>
             <div
               className='flex flex-col gap-3 items-center p-6 pb-0 font-Josefin text-2xl'>
             <p>Olivia Martinez</p>

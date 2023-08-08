@@ -46,7 +46,7 @@ export default function Media() {
     }
 
     return (
-        <div >
+        <div>
             <div className="flex justify-center">
                 <div className="h-[40vh] w-screen bg-[url('/img/amo-fischoff.jpg')] bg-no-repeat bg-cover bg-top flex items-end justify-end">
                     <p className="text-white text-7xl font-Josefin pr-8 pb-2">MEDIA</p>
@@ -57,10 +57,10 @@ export default function Media() {
                 <YouTube videoId="vq1BQqn9bBE" opts={opts}/>
                 <YouTube videoId="QfcOW6ZbVfw" opts={opts}/>
                 <YouTube videoId="bEp_cF3K23I" opts={opts}/>
-            </div>   
-                <div className="m-10 max-w-[600px]">
-                    <ImageCarousel />
-                </div>
+            </div>
+            <div className="my-6 mx-auto max-w-[600px]">
+                <ImageCarousel />
+            </div>
         </div>
     )
 }

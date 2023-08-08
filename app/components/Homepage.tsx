@@ -27,7 +27,7 @@ export default function Homepage() {
                 >Brass</motion.p>
             </div>
             <div className="col-span-3 md:col-span-2 max-h-[90vh]">
-                <img className="w-full max-h-[90vh] object-cover" src="/img/home-image.jpg" alt="Amo Image" />
+                <img className="w-full z-10 max-h-[90vh] object-cover" src="/img/home-image.jpg" alt="Amo Image" />
             </div>
             </div>
 

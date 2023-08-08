@@ -109,7 +109,7 @@ export default function Navbar(props: any) {
                 <motion.div 
                     initial={{ y: -250}}
                     animate={{ y: 0 }} 
-                    className="h-screen border-b-2 flex flex-col items-center px-11 pb-5 gap-5 drop-shadow-2xl overflow-y-hidden"
+                    className="min-h-min z-50 flex flex-col items-end px-11 pb-5 gap-5 drop-shadow-2xl"
                 >
                     <VerticalNavHeaders addUnderline={addUnderline} underline={props.underline}/>
                     <SocialMediaIcons />                    

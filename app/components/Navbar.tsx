@@ -13,6 +13,13 @@ export default function Navbar(props: any) {
     }
 
     const [isOpen, setOpen] = React.useState(false)
+    React.useEffect(() => {
+        if (isOpen) {
+            document.body.classList.add("overflow-hidden");
+        } else {
+            document.body.classList.remove("overflow-hidden")
+        }
+    }, [isOpen]);
 
     function useWindowSize() {
         // Initialize state with undefined width/height so server and client renders match
@@ -109,7 +116,7 @@ export default function Navbar(props: any) {
                 <motion.div 
                     initial={{ y: -250}}
                     animate={{ y: 0 }} 
-                    className="min-h-min z-50 flex flex-col items-end px-11 pb-5 gap-5 drop-shadow-2xl"
+                    className="h-screen border-b-2 flex flex-col items-center px-11 pb-5 gap-5 drop-shadow-2xl overflow-hidden"
                 >
                     <VerticalNavHeaders addUnderline={addUnderline} underline={props.underline}/>
                     <SocialMediaIcons />                    

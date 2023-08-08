@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 export default function EventsPage() {
     return (
-        <main className="flex flex-col">
+        <main className="h-screen">
             <Navbar underline="Events"/>
             <Events />
             <Footer />

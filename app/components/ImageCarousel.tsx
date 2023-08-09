@@ -1,6 +1,7 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Image from "next/image";
 
 const images = [
     "img/allan.jpg",
@@ -26,8 +27,8 @@ export default function ImageCarousel() {
     return (
             <Carousel useKeyboardArrows={true} swipeable={true} infiniteLoop={true} autoPlay={true}>
                 {images.map((URL, index) => (
-                    <div className="slide">
-                        <img alt="image" src={URL} key={index}/>
+                    <div className="slide" key={index}>
+                        <img alt="image" src={URL}/>
                     </div>
                 ))}
             </Carousel>

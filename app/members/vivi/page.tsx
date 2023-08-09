@@ -13,9 +13,23 @@ export default function AboutVivi() {
         <Navbar handleClick={handleClick} underline="Members" />
         <div className='text-xl lg:grid lg:grid-cols-3 lg:items-center lg:min-h-min lg:m-10 '>
           <div
-            className='flex flex-col gap-3 items-center p-6 pb-0 font-Josefin text-2xl'>
-          <p>Vivian Kung</p>
-          <img src="../img/vivi-mirror.jpg" alt="Vivi" className='h-[400px] w-[400px] relative object-cover object-center mb-6'/>
+            className='flex flex-col gap-3 items-center p-6 font-Josefin text-2xl'>
+            <p>Vivian Kung</p>
+            <img src="../img/vivi-mirror.jpg" alt="Vivi" className='h-[400px] w-[400px] relative object-cover object-center mb-6'/>
+            <div className='flex gap-4 items-center'>
+              <img 
+                src="../icons/world-globe-line-icon.svg" 
+                alt="Website Link" 
+                className='h-7 w-7 hover:scale-110 cursor-pointer'
+                onClick={() => {handleClick('http://www.viviankung.com/')}}
+              />
+              <img 
+                src="../icons/alt-instagram-icon.svg" 
+                alt="Instagram Link" 
+                className='h-7 w-7 hover:scale-110 cursor-pointer'
+                onClick={() => {handleClick('https://www.instagram.com/vivikungpaochicken/')}}
+              />
+            </div>
           </div>
           <div className='px-6 pb-6 font-Quattrocento md:col-span-2'>
             <p className='mb-5'>

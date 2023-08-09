@@ -10,8 +10,8 @@ export default function SocialMediaIcons(props: any) {
         ></a>
         <img 
             className="cursor-pointer h-10 w-10 relative top-[-2px] hover:scale-110 transition duration-75" 
-            onClick={() => props.handleClick('https://www.facebook.com')}
-            src="/icons/107175_circle_facebook_icon.svg" 
+            onClick={() => props.handleClick('https://www.facebook.com/profile.php?id=100095469076976')}
+            src="/icons/facebook.svg" 
             alt="Facebook Button" 
         />
         <div 

@@ -97,7 +97,7 @@ export default function Navbar(props: any) {
                     className="h-screen border-b-2 flex flex-col items-center px-11 pb-5 gap-5 drop-shadow-2xl overflow-hidden"
                 >
                     <VerticalNavHeaders addUnderline={addUnderline} underline={props.underline}/>
-                    <SocialMediaIcons />                    
+                    <SocialMediaIcons handleClick={props.handleClick}/>                    
                 </motion.div>}
         </nav>
     )

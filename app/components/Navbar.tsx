@@ -4,6 +4,7 @@ import Hamburger from 'hamburger-react';
 import React from "react";
 import HorizontalNavHeaders from "./HorizontalNavHeaders";
 import VerticalNavHeaders from "./VerticalNavHeaders";
+import SocialMediaIcons from "./SocialMediaIcons";
 
 
 
@@ -53,29 +54,6 @@ export default function Navbar(props: any) {
         setOpen(false);
       }
 
-    const SocialMediaIcons = () => {
-        return (
-            <div className="flex gap-3">
-            <a 
-                onClick={() => props.handleClick('https://www.instagram.com/amobrass')}
-                className="cursor-pointer h-9 w-9 bg-black rounded-full bg-[url('/icons/instagram.svg')] 
-                bg-no-repeat bg-center hover:scale-110 transition duration-75"
-            ></a>
-            <img 
-                className="cursor-pointer hover:scale-110 transition duration-75" 
-                onClick={() => props.handleClick('https://www.facebook.com')}
-                src="/icons/facebook.svg" 
-                alt="Facebook Button" 
-            />
-            <div 
-                onClick={() => props.handleClick('https://www.youtube.com/channel/UCS9XQxSYUoXdTld153_sCBw?app=desktop')}
-                className="cursor-pointer h-9 w-9 bg-black rounded-full bg-[url('/icons/youtube.svg')] bg-no-repeat bg-center 
-                hover:scale-110 transition duration-75"
-            ></div>
-        </div>
-        )
-    }
-
     return (
         <nav>
             {/* Navbar for large screens */}
@@ -86,7 +64,7 @@ export default function Navbar(props: any) {
                 <a className="text-xl text-black hover:scale-110 transition duration-75" href="/">AMO BRASS</a>
 
                 <HorizontalNavHeaders addUnderline={addUnderline} underline={props.underline}/>
-                <SocialMediaIcons />
+                <SocialMediaIcons handleClick={props.handleClick} />
             </div>
                 
             {/* Navbar for small screens */}

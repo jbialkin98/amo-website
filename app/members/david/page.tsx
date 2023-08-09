@@ -22,7 +22,7 @@ export default function AboutDavid() {
               Originally from Lexington, KY, David Seder began his musical journey at six years old when he took his first 
               piano lesson. While attending the School for the Creative and Performing Arts (SCAPA) at Lafayette High School, 
               he picked up the trombone. Throughout his middle and high school years, David took lessons at the Central Music 
-              Academy, performed with the Central Kentucky Youth Orchestras, participated in All-State Band and the Governor's 
+              Academy, performed with the Central Kentucky Youth Orchestras, participated in All-State Band and the Governor&apos;s 
               School for the Arts, and was mentored by piano instructor Greg Partain and trombone instructor Anastasi Fafalios. 
               After high school, David began his studies in trombone performance at the University of Kentucky studying with 
               Professor Bradley Kerns. In his sophomore year of college at the University of Kentucky, David was the winner 

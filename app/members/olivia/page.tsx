@@ -22,7 +22,7 @@ export default function AboutOlivia() {
             <p className='mb-4'>
               Olivia Martinez is a horn player from Indiana. She has had the great fortune to perform 
               across the world in places such as China, Carnegie Hall, the Kennedy Center, Disneyland, 
-              Vienna, and Prague. This summer, she performed at the International Women's Brass 
+              Vienna, and Prague. This summer, she performed at the International Women&apos;s Brass 
               Conference with the Chromatic Brass Collective, which seeks to increase the visibility 
               of underrepresented people in music. Olivia is Principal Horn of Bay Atlantic Symphony 
               and freelances and teaches around Philadelphia.
@@ -30,7 +30,7 @@ export default function AboutOlivia() {
             <p className='mb-4'>
               Olivia often performs in jazz, new, and early music groups. She studied at Indiana 
               University with Richard Seraphinoff, Dale Clevenger, and Jeff Nelsen and studied with 
-              William Purvis for her Master's at Yale University. She is in the second year of her 
+              William Purvis for her Master&apos;s at Yale University. She is in the second year of her 
               Doctorate at Temple University studying with Randy Gardner.
             </p>
             <p>

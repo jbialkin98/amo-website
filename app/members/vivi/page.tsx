@@ -25,9 +25,9 @@ export default function AboutVivi() {
             </p>
             <p className='mb-5'>
               Vivian has been the recipient of various solo competition awards. Ms. Kung is a two time prize winner 
-              in the Susan Slaughter tuba competition at the International Women's Brass Conference. While studying in 
+              in the Susan Slaughter tuba competition at the International Women&apos;s Brass Conference. While studying in 
               Los Angeles, she was a winner in the brass division of the 37th Pasadena Showcase House Instrumental competition. 
-              In 2019, Ms. Kung received first place in the Music Teacher's National Association brass division, placing first 
+              In 2019, Ms. Kung received first place in the Music Teacher&apos;s National Association brass division, placing first 
               out of an initial 600 competitors. In 2018, she received first place in the Northwestern Tuba and Euphonium 
               conference Young Artist solo competition. Ms. Kung has been seen on stage with the Los Angeles Philharmonic, 
               Symphony in C, Symphoria Orchestra, American Youth Symphony, Hudson Valley Philharmonic, The Orchestra Now, New 

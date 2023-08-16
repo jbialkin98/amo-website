@@ -20,7 +20,7 @@ export default function About() {
                     organizations and non-profits, and firmly believes in balancing world class artistry with community partnership.
                 </p>
 
-                <h1 className="font-bold text-4xl mb-8 self-center">
+                <h1 className="font-bold text-4xl mb-8 self-center text-center">
                     Mission & Vision
                 </h1>
                 <p className="mb-4">
@@ -32,7 +32,7 @@ export default function About() {
                     collaborations to audiences.
                 </p>
 
-                <h1 className="font-bold text-4xl mb-8 self-center">
+                <h1 className="font-bold text-4xl mb-8 self-center text-center">
                     Equity Statement
                 </h1>
                 <p>

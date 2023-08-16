@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function HorizontalNavHeaders(props: any) {
-    const navArray = ["HOME", "ABOUT", "MEMBERS", "MEDIA", "EVENTS", "CONTACT"];
+    const navArray = ["HOME", "ABOUT", "EDUCATION", "MEMBERS", "MEDIA", "EVENTS", "CONTACT"];
         const headers = navArray.map(tab => {
             return (
                 <a 
@@ -15,7 +15,7 @@ export default function HorizontalNavHeaders(props: any) {
             )
         })
         return (
-            <div className={`flex gap-6 text-slate-400 px-5"`}>
+            <div className={`flex gap-5 text-slate-400 px-5"`}>
                 {headers}
             </div>
         )

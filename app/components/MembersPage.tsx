@@ -8,23 +8,23 @@ export default function MembersPage() {
         >
             <MemberCard 
                 memberName="connor"
-                cardText="Connor Holland, Trumpet"
+                cardText="Connor Holland, trumpet"
             />
             <MemberCard 
                 memberName="josh"
-                cardText="Josh Bialkin, Trumpet"
+                cardText="Josh Bialkin, trumpet"
             />
             <MemberCard 
                 memberName="olivia"
-                cardText="Olivia Martinez, Horn"
+                cardText="Olivia Martinez, horn"
             />
             <MemberCard 
                 memberName="david"
-                cardText="David Seder, Trombone"
+                cardText="David Seder, trombone"
             />
             <MemberCard 
                 memberName="vivi"
-                cardText="Vivi Kung, Tuba"
+                cardText="Vivi Kung, tuba"
             />
         </div>
     )

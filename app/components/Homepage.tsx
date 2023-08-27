@@ -34,7 +34,7 @@ export default function Homepage() {
             <div className="flex flex-col w-screen justify-center lg:flex-row md:items-center">
                 <img src="img/allan.jpg" alt="Amo and Allan Dean" className="mb-3" />
                 <div className="m-5 text-center font-Quattrocento font-bold text-2xl md:text-3xl lg:text-3xl">
-                    <p className="mb-2 md:mb-3 lg:mb-4">“Wonderful people and excellent players.”</p>
+                    <p className="mb-2 md:mb-3 lg:mb-4">&quot;Wonderful people and excellent players.&quot;</p>
                     <p>-Allan Dean, Trumpeter</p>
                 </div>
             </div>
@@ -51,14 +51,14 @@ export default function Homepage() {
                 </p>
                 <h1 className="text-3xl font-bold">Testimonials</h1>
                 <p className="max-w-[75%]">
-                    “Amo Brass is building strong connections with audiences and reinvigorating the quintet genre through their 
+                    &quot;Amo Brass is building strong connections with audiences and reinvigorating the quintet genre through their 
                     stellar musicianship, artistry, and technique. They bring the highest level of music making to all performance 
-                    and education settings, and truly care about furthering the arts in public life.”
+                    and education settings, and truly care about furthering the arts in public life.&quot;
                 </p>
                 <p className="max-w-[75%]">
-                    "In addition to being undeniable experts in their field, the musicians in Amo Brass are incredible pedagogues 
+                    &quot;In addition to being undeniable experts in their field, the musicians in Amo Brass are incredible pedagogues 
                     and strong advocates for lifelong music involvement. In a short masterclass they formed memorable connections 
-                    with my students through engaging performances and meaningful discussions."
+                    with my students through engaging performances and meaningful discussions.&quot;
                 </p>
 
                 <img className="m-8 h-[50vh] w-auto" src="/img/walk.jpg" alt="Amo Walking Victoriously" />

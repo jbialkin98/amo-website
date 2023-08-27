@@ -27,17 +27,9 @@ export default function Homepage() {
                 >Brass</motion.p>
             </div>
             <div className="col-span-3 md:col-span-2 max-h-[90vh]">
-                <img className="w-full z-10 max-h-[90vh] object-cover" src="/img/home-image.jpg" alt="Amo Image" />
+                <img className="w-full z-10 h-[90vh] object-cover" src="/img/home-image.jpg" alt="Amo Image" />
             </div>
             </div>
-
-            {/* <div 
-                className="filter bg-black/50 h-[55vh] w-screen text-center bg-[url('/img/allan.jpg')] relative top-5 bg-no-repeat bg-cover 
-                flex flex-col justify-center items-center bg-[left_calc(50%)_top_calc(40%)] text-white text-4xl font-Quattrocento mb-10"
-            >
-                <p>“Wonderful people and excellent players.”</p>
-                <p>-Allan Dean, Trumpeter</p>
-            </div> */}
 
             <div className="flex flex-col w-screen justify-center lg:flex-row md:items-center">
                 <img src="img/allan.jpg" alt="Amo and Allan Dean" className="mb-3" />
@@ -47,8 +39,8 @@ export default function Homepage() {
                 </div>
             </div>
 
-            <div className="py-5 w-full flex flex-col items-center">
-                <p className="max-w-[75%] font-Quattrocento text-2xl text-center">
+            <div className="py-5 w-full flex flex-col items-center gap-7 text-2xl text-center font-Quattrocento">
+                <p className="max-w-[75%]">
                 Amo Brass is an emerging chamber music ensemble which blends musical entertainment with artistic excellence. 
                 Comprised of Yale School of Music alumni, the ensemble is based in the greater New Haven area and is passionate 
                 about education, outreach, and performance. Members have been previous Fischoff winners and Aspen Brass Quintet 
@@ -57,6 +49,18 @@ export default function Homepage() {
                 prize winners in the BTHVN Wien Competition. They also advanced as finalists in the Charleston International Music 
                 Competition, and Amadeus International Music Competition.
                 </p>
+                <h1 className="text-3xl font-bold">Testimonials</h1>
+                <p className="max-w-[75%]">
+                    “Amo Brass is building strong connections with audiences and reinvigorating the quintet genre through their 
+                    stellar musicianship, artistry, and technique. They bring the highest level of music making to all performance 
+                    and education settings, and truly care about furthering the arts in public life.”
+                </p>
+                <p className="max-w-[75%]">
+                    "In addition to being undeniable experts in their field, the musicians in Amo Brass are incredible pedagogues 
+                    and strong advocates for lifelong music involvement. In a short masterclass they formed memorable connections 
+                    with my students through engaging performances and meaningful discussions."
+                </p>
+
                 <img className="m-8 h-[50vh] w-auto" src="/img/walk.jpg" alt="Amo Walking Victoriously" />
             </div>
         </div>

@@ -7,31 +7,31 @@ export default function Homepage() {
         <div className="font-Bodoni">
             <div className="grid grid-cols-3 mb-6 w-screen relative">
 
-            <div 
-                className="absolute text-center transform -translate-x-1/2 -translate-y-1/2 
-                    top-1/4 left-1/2 md:-translate-x-0 md:-translate-y-0 md:top-0 md:left-0 
-                    md:relative md:col-span-1 max-h-[90vh] md:flex flex-col 
-                    justify-center items-center text-6xl sm:text-7xl"
-            >
-                <motion.p 
-                    initial={{ opacity: 0, x: -100 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 1}}
-                    className="md:relative right-10"
-                >Amo</motion.p>
-                <motion.p 
-                    initial={{ opacity: 0, x: 100 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 2}}
-                    className="md:relative left-10"
-                >Brass</motion.p>
-            </div>
-            <div className="col-span-3 md:col-span-2 max-h-[90vh]">
-                <img className="w-full z-10 h-[90vh] object-cover" src="/img/home-image.jpg" alt="Amo Image" />
-            </div>
+                <div 
+                    className="absolute text-center transform -translate-x-1/2 -translate-y-1/2 
+                        top-1/4 left-1/2 md:-translate-x-0 md:-translate-y-0 md:top-0 md:left-0 
+                        md:relative md:col-span-1 max-h-[90vh] md:flex flex-col 
+                        justify-center items-center text-6xl sm:text-7xl"
+                >
+                    <motion.p 
+                        initial={{ opacity: 0, x: -100 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 1}}
+                        className="md:relative right-10"
+                    >Amo</motion.p>
+                    <motion.p 
+                        initial={{ opacity: 0, x: 100 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 2}}
+                        className="md:relative left-10"
+                    >Brass</motion.p>
+                </div>
+                <div className="col-span-3 md:col-span-2 max-h-[90vh]">
+                    <img className="w-full z-10 h-[90vh] object-cover" src="/img/home-image.jpg" alt="Amo Image" />
+                </div>
             </div>
 
-            <div className="flex flex-col w-screen justify-center lg:flex-row md:items-center">
+            <div className="flex flex-col w-screen justify-center lg:flex-row md:items-center mt-3">
                 <img src="img/allan.jpg" alt="Amo and Allan Dean" className="mb-3" />
                 <div className="m-5 text-center font-Quattrocento font-bold text-2xl md:text-3xl lg:text-3xl">
                     <p className="mb-2 md:mb-3 lg:mb-4">&quot;Wonderful people and excellent players.&quot;</p>

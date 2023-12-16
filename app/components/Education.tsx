@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Education() {
     return (
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center text-justify">
             <div className="h-[43vh] w-screen  bg-[url('/img/cali.jpg')] bg-no-repeat bg-cover bg-center flex items-end justify-end">
                 <p className="text-white text-7xl font-Josefin pr-8 pb-2">EDU</p>
             </div>

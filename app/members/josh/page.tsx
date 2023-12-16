@@ -17,7 +17,7 @@ export default function AboutJosh() {
           <p>Josh Bialkin</p>
           <img src="../img/josh.jpg" alt="Josh" className='h-[400px] w-[400px] relative object-cover object-top mb-6'/>
           </div>
-        <div className='px-6 pb-6 font-Quattrocento md:col-span-2'>
+        <div className='px-6 pb-6 font-Quattrocento md:col-span-2 text-justify'>
           <p className='mb-4'>
             Josh Bialkin is a trumpet player from the fabled land of New Jersey. He received a Bachelor of Music in 
             2020 from the Mannes School of Music where he studied with Vince Penzarella, Thomas Smith, and Mark Gould. 

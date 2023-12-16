@@ -18,7 +18,7 @@ export default function AboutConnor() {
             <img src="../img/connor.jpg" alt="Connor" className='object-cover object-left h-[400px] w-[400px] md:col-span-1'/>
           </div>
           <p
-            className='p-6 font-Quattrocento md:col-span-2'>
+            className='p-6 font-Quattrocento md:col-span-2 text-justify'>
             Connor Holland began playing the trumpet at age 12 while growing up in 
             Jacksonville, FL. Holland attended Douglas Anderson School for the Arts 
             for High School and during that time, as a member of the Jacksonville 

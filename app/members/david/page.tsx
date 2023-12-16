@@ -17,7 +17,7 @@ export default function AboutDavid() {
           <p>David Seder</p>
           <img src="../img/david.jpg" alt="David" className='h-[400px] w-[400px] relative object-cover object-top mb-6'/>
           </div>
-          <div className='px-6 pb-6 font-Quattrocento md:col-span-2'>
+          <div className='px-6 pb-6 font-Quattrocento md:col-span-2 text-justify'>
             <p className='mb-5'>
               Originally from Lexington, KY, David Seder began his musical journey at six years old when he took his first 
               piano lesson. While attending the School for the Creative and Performing Arts (SCAPA) at Lafayette High School, 

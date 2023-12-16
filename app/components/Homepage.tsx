@@ -39,7 +39,7 @@ export default function Homepage() {
                 </div>
             </div>
 
-            <div className="py-5 w-full flex flex-col items-center gap-7 text-2xl text-center font-Quattrocento">
+            <div className="py-5 w-full flex flex-col items-center gap-7 text-2xl font-Quattrocento text-justify">
                 <p className="max-w-[75%] pb-3">
                 Amo Brass is an emerging chamber music ensemble which blends musical entertainment with artistic excellence. 
                 Comprised of Yale School of Music alumni, the ensemble is based in the greater New Haven area and is passionate 
@@ -49,7 +49,7 @@ export default function Homepage() {
                 prize winners in the BTHVN Wien Competition. They also advanced as finalists in the Charleston International Music 
                 Competition, and Amadeus International Music Competition.
                 </p>
-                <h1 className="text-3xl font-bold border-t-2 w-[75vw] pt-8">Testimonials</h1>
+                <h1 className="text-3xl font-bold border-t-2 w-[75vw] pt-8 text-center">Testimonials</h1>
                 <p className="max-w-[75%]">
                     &quot;Amo Brass is building strong connections with audiences and reinvigorating the quintet genre through their 
                     stellar musicianship, artistry, and technique. They bring the highest level of music making to all performance 

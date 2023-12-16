@@ -50,7 +50,7 @@ export default function Navbar(props: any) {
       
       const windowSize = useWindowSize();
 
-      if (windowSize.width > 1023 && isOpen == true) {
+      if (windowSize.width > 1279 && isOpen == true) {
         setOpen(false);
       }
 
@@ -59,7 +59,7 @@ export default function Navbar(props: any) {
             {/* Navbar for large screens */}
             <div
                 className="bg-white flex items-center justify-between font-Josefin h-20 border-2 py-5 px-10 
-                tracking-wider sticky top-0 z-50 w-screen max-lg:hidden"
+                tracking-wider sticky top-0 z-50 w-screen max-xl:hidden"
             >
                 <a className="text-xl text-black hover:scale-110 transition duration-75" href="/">AMO BRASS</a>
 
@@ -69,8 +69,8 @@ export default function Navbar(props: any) {
                 
             {/* Navbar for small screens */}
             <div
-                className={!isOpen ? "border-b-2 bg-white flex items-center font-Josefin h-20  py-5 px-10 tracking-wider sticky top-0 z-50 w-screen lg:hidden": 
-                "bg-white flex items-center font-Josefin h-20  py-5 px-10 tracking-wider sticky top-0 z-50 w-screen lg:hidden"}
+                className={!isOpen ? "border-b-2 bg-white flex items-center font-Josefin h-20  py-5 px-10 tracking-wider sticky top-0 z-50 w-screen xl:hidden": 
+                "bg-white flex items-center font-Josefin h-20  py-5 px-10 tracking-wider sticky top-0 z-50 w-screen xl:hidden"}
             >
                 <a className="text-xl text-black hover:scale-110 transition duration-75" href="/">AMO BRASS</a>
                 

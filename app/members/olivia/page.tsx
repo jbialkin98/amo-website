@@ -34,23 +34,28 @@ export default function AboutOlivia() {
           </div>
           <div className='px-6 pb-6 font-Quattrocento md:col-span-2'>
             <p className='mb-4'>
-              Olivia Martinez is a horn player from Indiana. She has had the great fortune to perform 
-              across the world in places such as China, Carnegie Hall, the Kennedy Center, Disneyland, 
-              Vienna, and Prague. This summer, she performed at the International Women&apos;s Brass 
-              Conference with the Chromatic Brass Collective, which seeks to increase the visibility 
-              of underrepresented people in music. Olivia is Principal Horn of Bay Atlantic Symphony 
-              and freelances and teaches around Philadelphia.
+              Olivia Martinez is a horn player who displays professionalism in any situation. Whether performing music
+              or running a marathon, she enjoys the process of creating something excellent, especially while working
+              with others.
             </p>
             <p className='mb-4'>
-              Olivia often performs in jazz, new, and early music groups. She studied at Indiana 
-              University with Richard Seraphinoff, Dale Clevenger, and Jeff Nelsen and studied with 
-              William Purvis for her Master&apos;s at Yale University. She is in the second year of her 
-              Doctorate at Temple University studying with Randy Gardner.
+              Olivia has performed across the world in places such as China, the Musikverein (Vienna), the Estates
+              Theater (Prague), Carnegie Hall, and the Kennedy Center. She won the Marie Speziale Orchestra Mock
+              Audition and a Conn-Selmer horn at the 2022 International Women’s Brass Conference. She recently won the
+              West Point Band 2nd Horn audition and will join the Band in April. Former positions include Principal Horn
+              of the Bay Atlantic Symphony, 2nd Horn of Symphony in C, and Substitute positions with the Hawaii,
+              Bozeman, Northeastern Pennsylvania Philharmonic, Harrisburg, and New World Symphonies.
+            </p>
+            <p className='mb-4'>
+              Olivia is passionate about teaching. She leads students to think critically and enjoy learning. She is
+              also committed to equity. As part of the Chromatic Brass Collective, which seeks to increase the
+              visibility of underrepresented people in music, she regularly performs, researches, and commissions pieces
+              to advocate for diversity in music.
             </p>
             <p>
-              Aside from inhaling good books and food, Olivia likes to run. She ran her first 
-              marathon recently in Pittsburgh. On any given day, you might find her dog sitting or 
-              playing trivia with friends.
+              A current Doctoral Candidate at Temple University, Olivia earned her Master&apos;s of Music at Yale University
+              and Bachelor&apos;s of Music at the Indiana University Jacobs School of Music. On any given day, you might
+              find her practicing, baking bread, or reading a good book.
             </p>
           </div>
           </div>

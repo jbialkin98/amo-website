@@ -3,10 +3,11 @@ import React from "react";
 export default function Donate(props: any) {
     return (
         <div className="flex flex-col items-center">
-            <div className="h-[43vh] w-screen bg-[url('/img/woods.jpg')] bg-no-repeat bg-cover bg-top flex items-end justify-end">
+            <div className="h-[43vh] w-screen bg-[url('/img/woods-small.jpg')] md:bg-[url('/img/woods.jpg')]
+                bg-no-repeat bg-cover bg-center md:bg-top flex items-end justify-end">
                 <p className="text-white text-7xl font-Josefin pr-8 pb-2">Donate</p>
             </div>
-            <button className="mt-10 w-40 h-16 rounded-xl text-2xl border-solid border-2 border-black"
+            <button className="mt-10 w-40 h-16 rounded-xl text-2xl border-solid border-2 border-black hover:scale-110 transition duration-75"
                 onClick={() => props.handleClick('https://app.thefield.org/home/donation/crowd/view/278/Amo-Brass-Holiday-Giving-Campaign')}
             >Donate</button>
             <div className="max-w-[75%] text-2xl my-10 font-Quattrocento">
@@ -19,14 +20,14 @@ export default function Donate(props: any) {
                     Your donations will help cover:
                 </p>
                 <ul className="list-disc list-outside">
-                    <li className="mx-12">Artist fees to support and compensate members of Amo Brass</li>
-                    <li className="mx-12">
+                    <li className="ml-12">Artist fees to support and compensate members of Amo Brass</li>
+                    <li className="ml-12">
                         Operational costs associated with administrative work in booking and programming in-school concerts 
                         (marketing, publicity, booking management, etc)
                     </li>
-                    <li className="mx-12">Group travel, lodging, and per diem fees</li>
-                    <li className="mx-12">Commissioning and consortium fees for new brass quintet music from underrepresented composers</li>
-                    <li className="mx-12">Audio visual documentation of performances and rehearsals</li>
+                    <li className="ml-12">Group travel, lodging, and per diem fees</li>
+                    <li className="ml-12">Commissioning and consortium fees for new brass quintet music from underrepresented composers</li>
+                    <li className="ml-12">Audio visual documentation of performances and rehearsals</li>
                 </ul>
                 <p className="text-lg mt-6">
                     Amo Brass is a sponsored artist with The Performance Zone Inc (dba The Field), a not-for-profit, tax-exempt, 

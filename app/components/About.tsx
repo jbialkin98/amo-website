@@ -7,7 +7,7 @@ export default function About() {
                 <p className="text-white text-7xl font-Josefin pr-8 pb-2">ABOUT</p>
             </div>
             <div className="max-w-[75%] text-2xl my-10 font-Quattrocento flex flex-col text-justify">
-                <p className="mb-8">
+                <p className="mb-4">
                     Lauded by acclaimed trumpeter Allan Dean as &quot;wonderful people and excellent players,&quot; Amo
                     Brass is a chamber ensemble that blends musical entertainment with artistic excellence. The ensemble
                     formed in 2020 as a group of friends wanting to safely make music outside during a pandemic. Amo has
@@ -27,10 +27,7 @@ export default function About() {
                     Amo Brass frequently works with local organizations and nonprofits, and firmly believes in balancing
                     world class artistry with community partnership. All members are alumni of the Yale Music in Schools
                     Initiative, which delivers free music education to underserved public school students of the New
-                    Haven community. Our vision for the ensemble is to provide a musical experience which offers a
-                    commitment to accessible education, cultural leadership, and service to society through the arts.
-                    Our mission is to connect the cultural fabric of communities by presenting diverse educational
-                    programming, musical performances, and community collaborations to audiences. As part of our
+                    Haven community. As part of our
                     commitment to accessible education, Amo Brass performances seamlessly navigate diverse landscapes
                     of music with precision and style. From soulful jazz improvisations to the well-known melodies of
                     movie soundtracks and energetically driving rhythms of contemporary classical music, Amo Brass is
@@ -46,7 +43,7 @@ export default function About() {
                 </p>
 
                 <h1 className="font-bold text-4xl mb-8 self-center text-center">
-                    Mission & Vision
+                    Vision & Mission
                 </h1>
                 <p className="mb-4">
                     Amo Brass&apos; vision for their ensemble is to provide a musical experience which offers a commitment to accessible education, cultural leadership, 

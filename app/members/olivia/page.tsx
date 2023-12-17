@@ -32,7 +32,7 @@ export default function AboutOlivia() {
               />
             </div>
           </div>
-          <div className='px-6 pb-6 font-Quattrocento md:col-span-2'>
+          <div className='px-6 pb-6 font-Quattrocento md:col-span-2 text-justify'>
             <p className='mb-4'>
               Olivia Martinez is a horn player who displays professionalism in any situation. Whether performing music
               or running a marathon, she enjoys the process of creating something excellent, especially while working

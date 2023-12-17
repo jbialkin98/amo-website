@@ -31,7 +31,7 @@ export default function AboutVivi() {
               />
             </div>
           </div>
-          <div className='px-6 pb-6 font-Quattrocento md:col-span-2'>
+          <div className='px-6 pb-6 font-Quattrocento md:col-span-2 text-justify'>
             <p className='mb-5'>
               Vivian Kung is a Taiwanese American tuba player, music educator, and aspiring crazy cat lady. Ms. Kung 
               currently serves as the principal tuba of Symphony in C, and is the first Asian woman to hold the position. 

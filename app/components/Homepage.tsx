@@ -41,7 +41,7 @@ export default function Homepage() {
 
             <div className="py-5 w-full flex flex-col items-center gap-7 text-2xl font-Quattrocento text-justify">
                 <p className="max-w-[75%] pb-3">
-                    Lauded by acclaimed trumpeter Allan Dean as "wonderful people and excellent players", Amo Brass is an emerging 
+                    Lauded by acclaimed trumpeter Allan Dean as &quot;wonderful people and excellent players&quot;, Amo Brass is an emerging 
                     chamber music ensemble which blends musical entertainment with artistic excellence. Composed of Yale School of 
                     Music alumni, the ensemble is based in the Tri–State area and is passionate about education, outreach, and 
                     performance. In 2023, Amo Brass was a Finalist Prize-winner at the Plowman Chamber Music Competition, and 

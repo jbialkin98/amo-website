@@ -12,7 +12,7 @@ export default function About() {
                     Brass is a chamber ensemble that blends musical entertainment with artistic excellence. The ensemble
                     formed in 2020 as a group of friends wanting to safely make music outside during a pandemic. Amo has
                     since graduated from those informal meetings to touring the country. Composed of Yale School of Music
-                    alumni, the ensemble is based in the New England area and is passionate about education, community
+                    alumni, the ensemble is based in the Tri-State area and is passionate about education, community
                     engagement, and performance. Together, they have spent summers at the Norfolk Chamber Music Festival
                     and Avaloch Farms Music Institute. In 2022, they were named Gold Medalist winners of the Cambridge
                     International Music Competition and first prize winners in the BTHVN Wien Competition. They also

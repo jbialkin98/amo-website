@@ -41,17 +41,16 @@ export default function Homepage() {
 
             <div className="py-5 w-full flex flex-col items-center gap-7 text-2xl font-Quattrocento text-justify">
                 <p className="max-w-[75%] pb-3">
-                    Lauded by acclaimed trumpeter Allan Dean as &quot;wonderful people and excellent players,&quot; Amo Brass is a chamber ensemble 
-                    that blends musical entertainment with artistic excellence. The ensemble formed in 2020 as a group of friends wanting 
-                    to safely make music outside during a pandemic. Amo has since graduated from those informal meetings to touring the 
-                    country. Composed of Yale School of Music alumni, the ensemble is based in the New England area and is passionate about 
-                    education, community engagement, and performance. Together, they have spent summers at the Norfolk Chamber Music Festival 
-                    and Avaloch Farms Music Institute. In 2022, they were named Gold Medalist winners of the Cambridge International Music 
-                    Competition and first prize winners in the BTHVN Wien Competition. They also advanced as finalists in the Charleston International 
-                    Music Competition and Amadeus International Music Competition. Most recently, Amo Brass was a Finalist Prize-winner at the Plowman 
-                    Chamber Music Competition, and also received the ABQ Prize at the 50th Fischoff Competition, becoming the first brass quintet to 
-                    advance in over a decade. They recently completed a week-long educational outreach tour for public school students in the 
-                    California Bay Area, where they visited 5 local schools and organized a side-by-side recital alongside students.
+                    Lauded by acclaimed trumpeter Allan Dean as "wonderful people and excellent players", Amo Brass is an emerging 
+                    chamber music ensemble which blends musical entertainment with artistic excellence. Composed of Yale School of 
+                    Music alumni, the ensemble is based in the Tri–State area and is passionate about education, outreach, and 
+                    performance. In 2023, Amo Brass was a Finalist Prize-winner at the Plowman Chamber Music Competition, and 
+                    received the ABQ Prize at the 50th Fischoff Competition. The ensemble has completed residencies at Avaloch 
+                    Farms Music Institute and Norfolk Chamber Music Festival. In April, they embarked on a week-long educational 
+                    outreach tour for public school students in the California Bay Area to advance their mission of musical 
+                    experience which offers a commitment to accessible education, cultural leadership, and service to society 
+                    through the arts. Amo Brass frequently works with local organizations and non-profits, and firmly believes 
+                    in balancing world class artistry with community partnership.
                 </p>
                 <h1 className="text-3xl font-bold border-t-2 w-[75vw] pt-8 text-center">Testimonials</h1>
                 <p className="max-w-[75%]">

@@ -10,7 +10,7 @@ export default function AboutOlivia() {
 
   return (
     <main className='flex flex-col items-center min-h-screen'>
-        <Navbar handleClick={handleClick} underline="Members" />
+        <Navbar underline="Members" />
 
           <div className='text-xl lg:grid lg:grid-cols-3 lg:items-center lg:min-h-min lg:m-10'>
             <div
@@ -60,7 +60,7 @@ export default function AboutOlivia() {
           </div>
           </div>
 
-        <Footer handleClick={handleClick} />
+        <Footer />
     </main>
   )
 }

@@ -13,6 +13,10 @@ export default function Navbar(props: any) {
         return tabName === props.underline.toUpperCase() ? true: false;
     }
 
+    function handleClick(link: string) {
+        window.open(`${link}`,'_blank');
+      }
+
     const [isOpen, setOpen] = React.useState(false)
     React.useEffect(() => {
         if (isOpen) {
@@ -64,7 +68,7 @@ export default function Navbar(props: any) {
                 <a className="text-xl text-black hover:scale-110 transition duration-75" href="/">AMO BRASS</a>
 
                 <HorizontalNavHeaders addUnderline={addUnderline} underline={props.underline}/>
-                <SocialMediaIcons handleClick={props.handleClick} />
+                <SocialMediaIcons handleClick={handleClick} />
             </div>
                 
             {/* Navbar for small screens */}
@@ -80,9 +84,9 @@ export default function Navbar(props: any) {
                             toggled={isOpen} toggle={setOpen} size={24}
                             onToggle={toggled => {
                                 if (toggled) {
-                                    
+                                    console.log("Hamburger is toggled")
                                 } else {
-                                
+                                    console.log("Hamburger is not toggled")
                                 }
                             }}
                         />
@@ -97,7 +101,7 @@ export default function Navbar(props: any) {
                     className="h-screen border-b-2 flex flex-col items-center px-11 pb-5 gap-5 drop-shadow-2xl overflow-hidden"
                 >
                     <VerticalNavHeaders addUnderline={addUnderline} underline={props.underline}/>
-                    <SocialMediaIcons handleClick={props.handleClick}/>                    
+                    <SocialMediaIcons handleClick={handleClick}/>                    
                 </motion.div>}
         </nav>
     )

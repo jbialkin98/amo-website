@@ -4,13 +4,9 @@ import Navbar from '@/app/components/Navbar';
 import Footer from '@/app/components/Footer';
 
 export default function AboutConnor() {
-  function handleClick(link: string) {
-    window.open(`${link}`,'_blank');
-  }
-
   return (
     <main className='flex flex-col items-center min-h-screen'>
-        <Navbar handleClick={handleClick} underline="Members" />
+        <Navbar underline="Members" />
         <div className='text-xl lg:grid lg:grid-cols-3 lg:items-center lg:min-h-min lg:m-10'>
           <div
             className='flex flex-col gap-3 items-center p-6 pb-0 font-Josefin text-2xl'>
@@ -34,7 +30,7 @@ export default function AboutConnor() {
             outdoors.
           </p>
         </div>
-        <Footer handleClick={handleClick} />
+        <Footer />
     </main>
   )
 }

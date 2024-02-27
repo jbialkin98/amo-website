@@ -6,15 +6,11 @@ import MembersPage from '../components/MembersPage';
 import Footer from '../components/Footer'
 
 export default function Home() {
-  function handleClick(link: string) {
-    window.open(`${link}`,'_blank');
-  }
-
   return (
     <main className='flex flex-col min-h-screen'>
-        <Navbar handleClick={handleClick} underline="Members" />
+        <Navbar underline="Members" />
         <MembersPage />
-        <Footer handleClick={handleClick} />
+        <Footer />
     </main>
   )
 }

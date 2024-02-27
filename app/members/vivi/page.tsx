@@ -10,7 +10,7 @@ export default function AboutVivi() {
 
   return (
     <main className='flex flex-col items-center min-h-screen'>
-        <Navbar handleClick={handleClick} underline="Members" />
+        <Navbar underline="Members" />
         <div className='text-xl lg:grid lg:grid-cols-3 lg:items-center lg:min-h-min lg:m-10 '>
           <div
             className='flex flex-col gap-3 items-center p-6 font-Josefin text-2xl'>
@@ -54,7 +54,7 @@ export default function AboutVivi() {
             </p>
           </div>
         </div>
-        <Footer handleClick={handleClick} />
+        <Footer />
     </main>
   )
 }

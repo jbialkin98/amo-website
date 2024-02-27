@@ -7,15 +7,11 @@ import Footer from "../components/Footer";
 
 
 export default function MediaPage() {
-    function handleClick(link: string) {
-        window.open(`${link}`,'_blank');
-      }
-
     return (
         <div>
-            <Navbar handleClick={handleClick} underline="Media"/>
+            <Navbar underline="Media"/>
             <Media />
-            <Footer handleClick={handleClick}/>
+            <Footer />
         </div>
     )
 }

@@ -47,7 +47,7 @@ export default function About() {
                 </h1>
                 <p className="mb-4">
                     Amo Brass&apos; vision for their ensemble is to provide a musical experience which offers a commitment to accessible education, cultural leadership, 
-                    and service to society through the arts.
+                    and public service.
                 </p>
                 <p className="mb-8">
                     Our mission is to connect the cultural fabric of communities by presenting diverse educational programming, musical performances, and community 

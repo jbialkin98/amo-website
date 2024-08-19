@@ -12,7 +12,7 @@ export default function DonatePage() {
 
     return (
         <main className="h-screen flex flex-col">
-            <Navbar underline=""/>
+            <Navbar underline="Donate"/>
             <Donate handleClick={handleClick} />
             <Footer />
         </main>

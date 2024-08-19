@@ -5,7 +5,7 @@ export default function Donate(props: any) {
         <div className="flex flex-col items-center text-justify">
             <div className="h-[43vh] w-screen bg-[url('/img/woods-small.jpg')] md:bg-[url('/img/woods.jpg')]
                 bg-no-repeat bg-cover bg-center md:bg-top flex items-end justify-end">
-                <p className="text-white text-7xl font-Josefin pr-8 pb-2">Donate</p>
+                <p className="text-white text-7xl font-Josefin pr-8 pb-2">DONATE</p>
             </div>
             <button className="mt-5 w-24 h-10 rounded-xl text-xl hover:scale-105 transition duration-75 text-white bg-black"
                 onClick={() => props.handleClick('https://app.thefield.org/profile/Amo-Brass/643518')}

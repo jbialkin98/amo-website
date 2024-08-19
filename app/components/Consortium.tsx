@@ -91,7 +91,7 @@ export default function Consortium(props: any) {
         <div className="flex flex-col md:flex-row md:justify-between md:gap-10 md:align-center">
           <p className="font-Josefin mb-2">WHY</p>
           <p className="md:max-w-[70%]">
-            Amo Brass' vision is to provide musical experiences which offer
+            Amo Brass&apos; vision is to provide musical experiences which offer
             accessible education, cultural leadership, and public service. We
             believe that commissioning this work will support one aspect of our
             mission, which is to connect the cultural fabric of communities

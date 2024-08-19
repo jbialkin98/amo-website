@@ -7,14 +7,12 @@ export default function Donate(props: any) {
                 bg-no-repeat bg-cover bg-center md:bg-top flex items-end justify-end">
                 <p className="text-white text-7xl font-Josefin pr-8 pb-2">Donate</p>
             </div>
-            <button className="mt-10 w-40 h-16 rounded-xl text-2xl border-solid border-2 border-black hover:scale-110 transition duration-75"
-                onClick={() => props.handleClick('https://app.thefield.org/home/donation/crowd/view/278/Amo-Brass-Holiday-Giving-Campaign')}
+            <button className="mt-5 w-24 h-10 rounded-xl text-xl hover:scale-105 transition duration-75 text-white bg-black"
+                onClick={() => props.handleClick('https://app.thefield.org/profile/Amo-Brass/643518')}
             >Donate</button>
-            <div className="max-w-[75%] text-2xl my-10 font-Quattrocento">
+            <div className="max-w-[75%] text-2xl my-5 font-Quattrocento">
                 <p>
-                    This holiday season, please consider contributing to our 2023-2024 season of brass quintet programming. Your 
-                    generosity will support our educational initiatives, help us commission new music from underrepresented composers, 
-                    and make our mission of delivering accessible music to the public possible.
+                Amo Brass' vision and mission are made possible by generous donors like you!
                 </p>
                 <p className="mt-6">
                     Your donations will help cover:
@@ -38,6 +36,8 @@ export default function Donate(props: any) {
                     120 Broadway, New York, NY 10271.
                 </p>
             </div>
+            <iframe className=" w-[75%] h-[700px] my-5" src="/documents/amo-23-24-annual-report.pdf"></iframe>
+
         </div>
     )
 }

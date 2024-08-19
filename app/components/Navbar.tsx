@@ -52,19 +52,19 @@ export default function Navbar(props: any) {
 
   const windowSize = useWindowSize();
 
-  if (windowSize.width > 1279 && isOpen == true) {
+  if (windowSize.width > 1023 && isOpen == true) {
     setOpen(false);
   }
 
   return (
     <nav>
         <div className="text-center py-1 bg-black text-white font-Josefin">
-            <a href="/donate" className="w-full">Click here to join our consortium!</a>
+            <a href="/consortium" className="w-full">Click here to join our consortium!</a>
         </div>
       {/* Navbar for large screens */}
       <div
         className="bg-white flex items-center justify-between font-Josefin h-20 border-2 py-5 px-10 
-                tracking-wider sticky top-0 z-50 w-screen max-xl:hidden"
+                tracking-wider sticky top-0 z-50 w-screen max-lg:hidden"
       >
         <a
           className="text-xl text-black hover:scale-110 transition duration-75"
@@ -77,15 +77,15 @@ export default function Navbar(props: any) {
           addUnderline={addUnderline}
           underline={props.underline}
         />
-        <SocialMediaIcons handleClick={handleClick} />
+        {/* <SocialMediaIcons handleClick={handleClick} /> */}
       </div>
 
       {/* Navbar for small screens */}
       <div
         className={
           !isOpen
-            ? "border-b-2 bg-white flex items-center font-Josefin h-20  py-5 px-10 tracking-wider sticky top-0 z-50 w-screen xl:hidden"
-            : "bg-white flex items-center font-Josefin h-20  py-5 px-10 tracking-wider sticky top-0 z-50 w-screen xl:hidden"
+            ? "border-b-2 bg-white flex items-center font-Josefin h-20 py-5 px-10 tracking-wider sticky top-0 z-50 w-screen lg:hidden"
+            : "bg-white flex items-center font-Josefin h-20 py-5 px-10 tracking-wider sticky top-0 z-50 w-screen lg:hidden"
         }
       >
         <a

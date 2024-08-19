@@ -3,7 +3,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Consortium from "../components/Consortium";
+import Donate from "../components/Donate";
 
 export default function DonatePage() {
     function handleClick(link: string) {
@@ -13,7 +13,7 @@ export default function DonatePage() {
     return (
         <main className="h-screen flex flex-col">
             <Navbar underline=""/>
-            <Consortium handleClick={handleClick} />
+            <Donate handleClick={handleClick} />
             <Footer />
         </main>
     )

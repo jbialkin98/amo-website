@@ -68,17 +68,6 @@ export default function Consortium(props: any) {
         </div>
       </div>
 
-      {/* <button
-        className="font-Josefin mt-10 w-32 h-12 rounded-xl text-xl border-solid border-2 hover:scale-105 transition duration-75 bg-black text-white"
-        onClick={() =>
-          props.handleClick(
-            "https://app.thefield.org/home/donation/crowd/view/278/Amo-Brass-Holiday-Giving-Campaign"
-          )
-        }
-      >
-        Sign Up
-      </button> */}
-
       <div className="max-w-[75%] text-2xl my-10 font-Quattrocento flex flex-col gap-10">
         <div className="flex flex-col md:flex-row md:justify-between md:gap-10 md:align-center">
           <p className="font-Josefin mb-2">WHAT IT IS</p>
@@ -113,9 +102,9 @@ export default function Consortium(props: any) {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row md:justify-between md:gap-10 md:align-center">
+        <div className="flex flex-col md:flex-row md:justify-between md:gap-10">
           <p className="font-Josefin mb-2">BENEFITS</p>
-          <ul className="list-disc pl-5 md:max-w-[70%] xl:pl-0">
+          <ul className="list-disc pl-5 md:w-[70%] ">
             <li>PDF score and parts</li>
             <li>
               Exclusive performance and recording rights from April 1,
@@ -130,20 +119,20 @@ export default function Consortium(props: any) {
 
         <div className="flex flex-col md:flex-row md:justify-between md:gap-10">
           <p className="font-Josefin mb-2">PRICING</p>
-          <div className="list-disc pl-5 md:max-w-[70%] xl:pl-0">
+          <div className="list-disc md:max-w-[70%]">
             <ul className="list-disc mb-3">
-              <li>$25 for Students</li>
-              <li>$50 for Professionals</li>
-              <li>$100 for Chamber Group/Studio</li>
+              <li className="ml-5">$25 for Students</li>
+              <li className="ml-5">$50 for Professionals</li>
+              <li className="ml-5">$100 for Chamber Group/Studio</li>
             </ul>
             <p className="mb-1 ml-0">Add-On Options:</p>
             <ul className="list-disc">
-              <li>
+              <li className="ml-5">
                 $15 for Access to a 1-hour zoom discussion and listening session
                 in the summer of 2025 with Aliyah Danielle and Amo Brass.
                 Session will be recorded for those who cannot attend
               </li>
-              <li>
+              <li className="ml-5">
                 $60 for a Private Coaching/Masterclass conducted over zoom by
                 Aliyah Danielle or a member of Amo Brass
               </li>
@@ -174,7 +163,7 @@ export default function Consortium(props: any) {
             </a>{" "}
             or email us at{" "}
             <a className="underline" href="mailto:amobrass@gmail.com">
-              amobrass@gmail.com.
+              amobrass@gmail.com
             </a>
             .
           </p>

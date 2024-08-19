@@ -6,8 +6,8 @@ export default function Education() {
             <div className="h-[43vh] w-screen  bg-[url('/img/cali.jpg')] bg-no-repeat bg-cover bg-center flex items-end justify-end">
                 <p className="text-white text-7xl font-Josefin pr-8 pb-2">EDU</p>
             </div>
-            <div className="max-w-[75%] text-2xl my-10 font-Quattrocento flex flex-col">
-                <h1 className="font-bold text-4xl mb-8 self-center text-center">
+            <div className="max-w-[75%] text-lg md:text-xl lg:text-2xl my-10 font-Quattrocento flex flex-col">
+                <h1 className="font-bold text-2xl lg:text-4xl mb-8 self-center text-center">
                     Teaching
                 </h1>
                 <p className="mb-8">
@@ -17,7 +17,7 @@ export default function Education() {
                     not be a success without collaborations with public school music teachers, who we feel are true heroes!
                 </p>
 
-                <h1 className="font-bold text-4xl mb-8 self-center text-center">
+                <h1 className="font-bold text-2xl lg:text-4xl mb-8 self-center text-center">
                     In-School Mentorship
                 </h1>
                 <p className="mb-4">
@@ -31,7 +31,7 @@ export default function Education() {
                     collaborations to audiences.
                 </p>
 
-                <h1 className="font-bold text-4xl mb-8 self-center text-center">
+                <h1 className="font-bold text-2xl lg:text-4xl mb-8 self-center text-center">
                     Community Concerts
                 </h1>
                 <p>

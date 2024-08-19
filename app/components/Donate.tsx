@@ -10,7 +10,7 @@ export default function Donate(props: any) {
             <button className="mt-5 w-24 h-10 rounded-xl text-xl hover:scale-105 transition duration-75 text-white bg-black"
                 onClick={() => props.handleClick('https://app.thefield.org/profile/Amo-Brass/643518')}
             >Donate</button>
-            <div className="max-w-[75%] text-2xl my-5 font-Quattrocento">
+            <div className="max-w-[75%] text-lg md:text-xl lg:text-2xl my-5 font-Quattrocento">
                 <p>
                 Amo Brass&apos; vision and mission are made possible by generous donors like you!
                 </p>
@@ -27,7 +27,7 @@ export default function Donate(props: any) {
                     <li className="ml-12">Commissioning and consortium fees for new brass quintet music from underrepresented composers</li>
                     <li className="ml-12">Audio visual documentation of performances and rehearsals</li>
                 </ul>
-                <p className="text-lg mt-6">
+                <p className="text-base md:text-lg mt-6">
                     Amo Brass is a sponsored artist with The Performance Zone Inc (dba The Field), a not-for-profit, tax-exempt, 
                     501(c)(3) organization serving the performing arts community. Contributions to The Field earmarked for Amo Brass 
                     are tax-deductible to the extent allowed by law. For more information about The Field, or for our national charities 

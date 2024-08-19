@@ -11,8 +11,8 @@ export default function Press(props: any) {
         <p className="text-white text-7xl font-Josefin pr-8 pb-2">PRESS</p>
       </div>
 
-      <div className="max-w-[75%] text-2xl my-5 font-Quattrocento flex flex-col items-center gap-3">
-        <h1 className="text-3xl font-bold pt-3 text-center">Testimonials</h1>
+      <div className="max-w-[75%] text-lg md:text-xl lg:text-2xl my-5 font-Quattrocento flex flex-col items-center gap-3">
+        <h1 className="text-2xl lg:text-4xl font-bold pt-3 text-center">Testimonials</h1>
         <p className="max-w-[75%]">
           &quot;Amo Brass is building strong connections with audiences and
           reinvigorating the quintet genre through their stellar musicianship,
@@ -29,8 +29,8 @@ export default function Press(props: any) {
         </p>
       </div>
 
-      <div className="max-w-[75%] text-2xl my-5 font-Quattrocento flex flex-col items-center gap-3">
-        <h1 className="text-3xl font-bold pt-3 text-center">Articles</h1>
+      <div className="max-w-[75%] text-lg md:text-xl lg:text-2xl my-5 font-Quattrocento flex flex-col items-center gap-3">
+        <h1 className="text-2xl lg:text-4xl font-bold pt-3 text-center">Articles</h1>
         <div className="flex flex-wrap gap-10 justify-center mb-2">
         <ArticleCard
           articleImage="img/hhs.jpg"

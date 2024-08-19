@@ -68,7 +68,7 @@ export default function Consortium(props: any) {
         </div>
       </div>
 
-      <div className="max-w-[75%] text-2xl my-10 font-Quattrocento flex flex-col gap-10">
+      <div className="max-w-[75%] text-lg md:text-xl lg:text-2xl my-10 font-Quattrocento flex flex-col gap-10">
         <div className="flex flex-col md:flex-row md:justify-between md:gap-10 md:align-center">
           <p className="font-Josefin mb-2">WHAT IT IS</p>
           <p className="md:max-w-[70%]">

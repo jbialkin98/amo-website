@@ -37,7 +37,7 @@ export default function Homepage() {
         </div>
       </div>
 
-      <div className="py-5 w-full flex flex-col items-center gap-7 text-2xl font-Quattrocento text-justify">
+      <div className="py-5 w-full flex flex-col items-center gap-7 text-lg md:text-xl lg:text-2xl font-Quattrocento text-justify">
         <p className="max-w-[75%] pb-3">
           Lauded by acclaimed trumpeter Allan Dean as &quot;wonderful people and
           excellent players&quot;, Amo Brass is an emerging chamber music

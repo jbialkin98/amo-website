@@ -6,7 +6,7 @@ export default function About() {
             <div className="h-[43vh] w-screen  bg-[url('/img/amo-couch-crop.jpg')] bg-no-repeat bg-cover bg-center flex items-end justify-end">
                 <p className="text-white text-7xl font-Josefin pr-8 pb-2">ABOUT</p>
             </div>
-            <div className="max-w-[75%] text-2xl my-10 font-Quattrocento flex flex-col text-justify">
+            <div className="max-w-[75%] text-lg md:text-xl lg:text-2xl my-10 font-Quattrocento flex flex-col text-justify">
                 <p className="mb-4">
                     Lauded by acclaimed trumpeter Allan Dean as &quot;wonderful people and excellent players,&quot; Amo
                     Brass is a chamber ensemble that blends musical entertainment with artistic excellence. The ensemble
@@ -42,7 +42,7 @@ export default function About() {
                     LOTR marathon), and religiously completing the daily NYT crossword puzzle.
                 </p>
 
-                <h1 className="font-bold text-4xl mb-8 self-center text-center">
+                <h1 className="font-bold text-2xl lg:text-4xl mb-8 self-center text-center">
                     Vision & Mission
                 </h1>
                 <p className="mb-4">
@@ -54,7 +54,7 @@ export default function About() {
                     collaborations to audiences.
                 </p>
 
-                <h1 className="font-bold text-4xl mb-8 self-center text-center">
+                <h1 className="font-bold text-2xl lg:text-4xl mb-8 self-center text-center">
                     Equity Statement
                 </h1>
                 <p>

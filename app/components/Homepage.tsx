@@ -58,7 +58,7 @@ export default function Homepage() {
         </p>
 
         <div className="flex flex-col w-screen justify-center lg:flex-row items-center mt-3 px-3">
-          <img src="img/allan.jpg" alt="Amo and Allan Dean" className="mb-3 max-w-lg" />
+          <img src="img/allan.jpg" alt="Amo and Allan Dean" className="mb-3 max-w-full" />
           <div className="m-5 text-center font-Quattrocento font-bold text-xl md:text-2xl">
             <p className="mb-2 md:mb-3 lg:mb-4">
               &quot;Wonderful people and excellent players.&quot;

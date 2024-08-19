@@ -1,35 +1,71 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Consortium(props: any) {
   return (
     <div className="flex flex-col items-center text-justify">
       <div className="h-[27vh] w-screen flex flex-col items-center justify-center">
-        <p className="text-black text-3xl md:text-5xl font-Josefin">AMO BRASS</p>
-        <p className="text-black text-lg md:text-2xl font-Josefin align-middle">&#x2715;</p>
-        <p className="text-black text-3xl md:text-5xl font-Josefin">ALIYAH DANIELLE</p>
-        <p className="text-black text-3xl md:text-5xl font-Josefin">CONSORTIUM</p>
+        <motion.p
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+          className="text-black text-3xl md:text-5xl font-Josefin"
+        >
+          AMO BRASS
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1, rotate: 360 }}
+          transition={{
+            duration: 0.7,
+            delay: 0.5,
+            ease: [0, 0.51, 0.2, 1.01],
+          }}
+          className="text-black text-lg md:text-2xl font-Josefin"
+        >
+          &#x2715;
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0, x: 100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 1, duration: 0.6 }}
+          className="text-black text-3xl md:text-5xl font-Josefin"
+        >
+          ALIYAH DANIELLE
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.7,
+            delay: 1.5,
+            ease: [0, 0.21, 0.2, 1.01],
+          }}
+          className="text-black text-3xl md:text-5xl font-Josefin"
+        >
+          CONSORTIUM
+        </motion.p>
       </div>
 
       <div className="flex flex-col items-center gap-5 lg:mb-5 lg:flex-row lg:justify-center lg:gap-2">
         <div className="w-[400px] h-[400px] lg:w-[500px] lg:h-[500px] relative">
-        <Image
-          src="/img/aliyah.png"
-          alt="Aliyah Picture"
-          fill
-          objectFit="contain"
-        />
+          <Image
+            src="/img/aliyah.png"
+            alt="Aliyah Picture"
+            fill
+            objectFit="contain"
+          />
         </div>
         <div className="w-[400px] h-[400px] lg:w-[500px] lg:h-[500px] relative">
-        <Image
-          src="/img/amo-consortium.png"
-          alt="Amo Brass Image"
-          fill
-          objectFit="contain"
-        />
+          <Image
+            src="/img/amo-consortium.png"
+            alt="Amo Brass Image"
+            fill
+            objectFit="contain"
+          />
         </div>
-        
       </div>
 
       {/* <button

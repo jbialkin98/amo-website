@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function HorizontalNavHeaders(props: any) {
-    const navArray = ["HOME", "ABOUT", "EDUCATION", "MEMBERS", "MEDIA", "DONATE", "EVENTS", "CONTACT"];
+    const navArray = ["HOME", "ABOUT", "EDUCATION", "MEMBERS", "MEDIA", "PRESS", "DONATE", "EVENTS", "CONTACT"];
         const headers = navArray.map(tab => {
             return (
                 <a 

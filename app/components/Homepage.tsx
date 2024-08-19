@@ -52,19 +52,9 @@ export default function Homepage() {
                     through the arts. Amo Brass frequently works with local organizations and non-profits, and firmly believes 
                     in balancing world class artistry with community partnership.
                 </p>
-                <h1 className="text-3xl font-bold border-t-2 w-[75vw] pt-8 text-center">Testimonials</h1>
-                <p className="max-w-[75%]">
-                    &quot;Amo Brass is building strong connections with audiences and reinvigorating the quintet genre through their 
-                    stellar musicianship, artistry, and technique. They bring the highest level of music making to all performance 
-                    and education settings, and truly care about furthering the arts in public life.&quot;
-                </p>
-                <p className="max-w-[75%]">
-                    &quot;In addition to being undeniable experts in their field, the musicians in Amo Brass are incredible pedagogues 
-                    and strong advocates for lifelong music involvement. In a short masterclass they formed memorable connections 
-                    with my students through engaging performances and meaningful discussions.&quot;
-                </p>
+                
 
-                <img className="m-8 h-[50vh] w-auto" src="/img/walk.jpg" alt="Amo Walking Victoriously" />
+                {/* <img className="m-8 h-[50vh] w-auto" src="/img/walk.jpg" alt="Amo Walking Victoriously" /> */}
             </div>
         </div>
     )

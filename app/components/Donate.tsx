@@ -12,7 +12,7 @@ export default function Donate(props: any) {
             >Donate</button>
             <div className="max-w-[75%] text-2xl my-5 font-Quattrocento">
                 <p>
-                Amo Brass' vision and mission are made possible by generous donors like you!
+                Amo Brass&apos; vision and mission are made possible by generous donors like you!
                 </p>
                 <p className="mt-6">
                     Your donations will help cover:

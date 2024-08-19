@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function Consortium(props: any) {
   return (
     <div className="flex flex-col items-center text-justify">
-      <div className="h-[27vh] w-screen flex flex-col items-center justify-center">
+      <div className="h-[27vh] w-screen flex flex-col items-center justify-center mt-2">
         <motion.p
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
@@ -95,10 +95,10 @@ export default function Consortium(props: any) {
             accessible education, cultural leadership, and public service. We
             believe that commissioning this work will support one aspect of our
             mission, which is to connect the cultural fabric of communities
-            through diverse educational programming. We are immensely excited
-            about Aliyah&apos;s new piece and believe that she is not only a
-            compelling and creative composer but also an adept and knowledgeable
-            brass player.
+            through diverse educational programming. Amo Brass is immensely
+            excited about this collaboration, as Aliyah is a dynamic artist with
+            a unique approach, crafting stories through sound and blending
+            genres to create interesting sonic textures.
           </p>
         </div>
 
@@ -128,12 +128,12 @@ export default function Consortium(props: any) {
             <p className="mb-1 ml-0">Add-On Options:</p>
             <ul className="list-disc">
               <li className="ml-5">
-                $15 for Access to a 1-hour zoom discussion and listening session
+                $15 for Access to a 1-hour Zoom discussion and listening session
                 in the summer of 2025 with Aliyah Danielle and Amo Brass.
                 Session will be recorded for those who cannot attend
               </li>
               <li className="ml-5">
-                $60 for a Private Coaching/Masterclass conducted over zoom by
+                $60 for a Private Coaching/Masterclass conducted over Zoom by
                 Aliyah Danielle or a member of Amo Brass
               </li>
             </ul>
@@ -173,7 +173,7 @@ export default function Consortium(props: any) {
           className="font-Josefin self-center mt-1 w-32 h-12 rounded-xl text-xl border-solid border-2 hover:scale-105 transition duration-75 bg-black text-white"
           onClick={() =>
             props.handleClick(
-              "https://app.thefield.org/home/donation/crowd/view/278/Amo-Brass-Holiday-Giving-Campaign"
+              "https://docs.google.com/forms/d/e/1FAIpQLSec3fwouaiFCce5Tw4bHVQbkCXQszRP7jyzBMoqCcjovkRg3Q/viewform?usp=sf_link"
             )
           }
         >

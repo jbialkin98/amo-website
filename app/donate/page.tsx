@@ -2,10 +2,8 @@
 
 import React from "react";
 import Navbar from "../components/Navbar";
-import Events from "../components/Events";
 import Footer from "../components/Footer";
-import Homepage from "../components/Homepage";
-import Donate from "../components/Donate";
+import Consortium from "../components/Consortium";
 
 export default function DonatePage() {
     function handleClick(link: string) {
@@ -15,7 +13,7 @@ export default function DonatePage() {
     return (
         <main className="h-screen flex flex-col">
             <Navbar underline=""/>
-            <Donate handleClick={handleClick} />
+            <Consortium handleClick={handleClick} />
             <Footer />
         </main>
     )

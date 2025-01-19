@@ -11,6 +11,7 @@ module.exports = {
         Bodoni: ['Bodoni Moda'],
         Josefin: ['Josefin Sans'],
         Quattrocento: ['Quattrocento'],
+        Shrikhand: ['Shrikhand'],
       },
     },
   },

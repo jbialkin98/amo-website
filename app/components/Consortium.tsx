@@ -82,7 +82,7 @@ export default function Consortium(props: any) {
           initial={{ opacity: 0, x: 100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 1, duration: 0.6 }}
-          className="text-black text-3xl md:text-5xl font-Josefin"
+          className="text-black text-3xl md:text-5xl font-Shrikhand"
         >
           ALIYAH DANIELLE
         </motion.p>

@@ -59,7 +59,7 @@ export default function Navbar(props: any) {
   return (
     <nav>
         <div className="text-center py-1 bg-black text-white font-Josefin">
-            <a href="/consortium" className="w-full">Click here to join our consortium!</a>
+            <a href="/consortium" className="w-full">Thank you for joining our consortium!</a>
         </div>
       {/* Navbar for large screens */}
       <div

@@ -4,6 +4,57 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function Consortium(props: any) {
+  const consortiumSupporters = [
+    "Alana Yee",
+    "Anthony Delivanis",
+    "Ashe Cooksey",
+    "Benjamin Weiss",
+    "Brian Kilp",
+    "Calliope Brass Music Association",
+    "Carson Ross",
+    "Chris Combest, Middle Tennessee State University",
+    "Darcy Hamlin",
+    "David Byrd-Marrow",
+    "Dr. Chris Bloom, Colorado State University",
+    "Dr. Dakota Corbliss",
+    "Dr. James Hampson",
+    "Eric Reed",
+    "Hannah Morrison",
+    "Horsetooth Brass Quintet",
+    "Indiana University Horn Department",
+    "James Boldin",
+    "Jason Bergman, Indiana University",
+    "Jeff Lang",
+    "John Mangonon",
+    "Kate Caliendo",
+    "Kate Warren",
+    "Katie Johnson-Webb",
+    "Lindsay Ross",
+    "Magnolia Brass Quintet",
+    "Marcus Grant",
+    "Matthew Meadows",
+    "Michael Simpson",
+    "Nicholas A. Kenney",
+    "Nick Beltchev",
+    "Oklahoma State Brass Faculty",
+    "Paul Basler",
+    "Potsdam Brass Quintet",
+    "Quintasonic Brass",
+    "Riverside Brass Quintet",
+    "Rusty Holmes",
+    "Seraph Brass",
+    "Stumptown Brass",
+    "Tessa Pettit",
+    "The Bourbon & Brass Company",
+    "Theresa May",
+    "Western Brass Quintet",
+    "William Purvis, YSM Brass",
+  ];
+
+  const half = Math.ceil(consortiumSupporters.length / 2);
+  const firstHalf = consortiumSupporters.slice(0, half);
+  const secondHalf = consortiumSupporters.slice(half);
+
   return (
     <div className="flex flex-col items-center text-justify">
       <div className="h-[27vh] w-screen flex flex-col items-center justify-center mt-2">
@@ -69,11 +120,50 @@ export default function Consortium(props: any) {
       </div>
 
       <div className="max-w-[75%] text-lg md:text-xl lg:text-2xl my-10 font-Quattrocento flex flex-col gap-10">
+        <div className="flex flex-col items-center gap-3">
+          <p className="font-Josefin mb-2">CONSORTIUM IS CLOSED</p>
+          <p className="md:max-w-[70%] mb-10">
+            Forty-four individuals and groups joined our first commissioning
+            consortium! The new 4-5 minute work for brass quintet by composer{" "}
+            <a
+              className="underline"
+              href="https://www.aliyahdanielle.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Aliyah Danielle 
+            </a>
+            {" "}will be sent as a PDF to consortium members on March 1st, 2025.
+            Thank you for supporting this endeavor!
+          </p>
+
+          <p className="font-Josefin">CONSORTIUM MEMBERS</p>
+          <p className=" text-lg mb-2">in alphabetical order</p>
+
+          <div className=" justify-center grid grid-cols-1 md:grid-cols-2 md:gap-10 mb-10 max-w-[75%]">
+            <div>
+              {firstHalf.map((supporter, index) => (
+                <p key={index} className="text-start">
+                  {supporter}
+                </p>
+              ))}
+            </div>
+            <div>
+              {secondHalf.map((supporter, index) => (
+                <p key={index} className="text-start">
+                  {supporter}
+                </p>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <hr className="self-center w-[75%] border-1 border-black mb-12" />
+
         <div className="flex flex-col md:flex-row md:justify-between md:gap-10 md:align-center">
           <p className="font-Josefin mb-2">WHAT IT IS</p>
           <p className="md:max-w-[70%]">
-            Amo Brass is embarking on our first commissioning consortium and
-            invite you to join us! The consortium will support the creation of a
+            Amo Brass is embarking on our first commissioning consortium which will support the creation of a
             4-5 minute new work for brass quintet by composer{" "}
             <a
               className="underline"
@@ -169,7 +259,7 @@ export default function Consortium(props: any) {
           </p>
         </div>
 
-        <button
+        {/* <button
           className="font-Josefin self-center mt-1 w-32 h-12 rounded-xl text-xl border-solid border-2 hover:scale-105 transition duration-75 bg-black text-white"
           onClick={() =>
             props.handleClick(
@@ -178,7 +268,7 @@ export default function Consortium(props: any) {
           }
         >
           Sign Up
-        </button>
+        </button> */}
       </div>
     </div>
   );

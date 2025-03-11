@@ -50,7 +50,7 @@ export default function AboutDavid() {
             Music Festival in 2022 and had a residency at the Avaloch Farm Music
             Institute. As a recording artist, David has released a solo album
             titled Timestamp in 2018 and a quartet album of the entirety of
-            Johann Sebastian Bach's Goldberg Variations in 2024 along with
+            Johann Sebastian Bach&apos;s Goldberg Variations in 2024 along with
             Bradley Kerns, Ben Dettelback, and Clint Woltering. Both of the
             albums are available on all streaming platforms.
           </p>

@@ -38,27 +38,35 @@ export default function Homepage() {
       </div>
 
       <div className="py-5 w-full flex flex-col items-center gap-7 text-lg md:text-xl lg:text-2xl font-Quattrocento text-justify">
-        <p className="max-w-[75%] pb-3">
-          Lauded by acclaimed trumpeter Allan Dean as &quot;wonderful people and
-          excellent players&quot;, Amo Brass is an emerging chamber music
-          ensemble which blends musical entertainment with artistic excellence.
-          Composed of Yale School of Music alumni, the ensemble is based in the
-          Tri–State area and is passionate about education, outreach, and
-          performance. In 2023, Amo Brass was a Finalist Prize-winner at the
-          Plowman Chamber Music Competition, and received the ABQ Prize at the
-          50th Fischoff Competition. The ensemble has completed residencies at
-          Avaloch Farms Music Institute and Norfolk Chamber Music Festival. In
-          April, they embarked on a week-long educational outreach tour for
-          public school students in the California Bay Area to advance their
-          mission of musical experience which offers a commitment to accessible
-          education, cultural leadership, and service to society through the
-          arts. Amo Brass frequently works with local organizations and
-          non-profits, and firmly believes in balancing world class artistry
-          with community partnership.
+        <p className="max-w-[60%] md:w-[40%] md:max-w-lg pb-3 my-3">
+          Amo Brass is a chamber music ensemble which blends musical
+          entertainment with artistic excellence. Composed of Yale School of
+          Music alumni, the ensemble is based in the Tri-state area and is
+          passionate about education, outreach, and performance. Amo Brass
+          frequently works with local organizations and non-profits, and firmly
+          believes in balancing world class artistry with community partnership.
+        </p>
+
+        <p className="max-w-[60%] md:w-[40%] md:max-w-lg pb-3 my-3">
+          In 2023, Amo Brass was a Finalist Prize-winner at the Plowman Chamber
+          Music Competition, and received the ABQ Prize at the 50th Fischoff
+          Competition. The ensemble has completed residencies at Avaloch Farms
+          Music Institute and Norfolk Chamber Music Festival. Amo Brass
+          regularly embarks on educational outreach tours, continuing their
+          commitment to accessible education, cultural leadership, and public
+          service. In 2024, Amo Brass commissioned a new work for brass quintet
+          by composer and multi-instrumentalist Chanell Crichlow. Amo Brass also
+          spearheaded a consortium to fund a new work for brass quintet by
+          dynamic artist Aliyah Danielle, bringing together over forty
+          individuals and ensembles to commission this piece.
         </p>
 
         <div className="flex flex-col w-screen justify-center lg:flex-row items-center mt-3 px-3">
-          <img src="img/allan.jpg" alt="Amo and Allan Dean" className="mb-3 max-w-full" />
+          <img
+            src="img/allan.jpg"
+            alt="Amo and Allan Dean"
+            className="mb-3 max-w-full"
+          />
           <div className="m-5 text-center font-Quattrocento font-bold text-xl md:text-2xl">
             <p className="mb-2 md:mb-3 lg:mb-4">
               &quot;Wonderful people and excellent players.&quot;

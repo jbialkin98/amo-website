@@ -19,11 +19,11 @@ export default function SocialMediaIcons(props: any) {
             className="cursor-pointer h-9 w-9 bg-black rounded-full bg-[url('/icons/youtube.svg')] bg-no-repeat bg-center 
             hover:scale-110 transition duration-75"
         ></div>
-        <a href="/consortium" className="self-center relative top-[-2px] hover:scale-110 transition duration-75 text-lg text-center align-middle">
+        {/* <a href="/consortium" className="self-center relative top-[-2px] hover:scale-110 transition duration-75 text-lg text-center align-middle">
             <button className="bg-black text-white rounded-lg w-40 h-9">
                 Join Consortium
             </button>
-        </a>
+        </a> */}
     </div>
     )
 }

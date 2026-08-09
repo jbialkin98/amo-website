@@ -10,8 +10,6 @@
   },
   "dependencies": {
     "@types/node": "20.4.1",
-    "@types/react": "19.2.18",
-    "@types/react-dom": "19.2.4",
     "@vercel/analytics": "^1.0.2",
     "autoprefixer": "10.4.14",
     "eslint": "10.8.1",
@@ -20,20 +18,19 @@
     "hamburger-react": "^2.5.0",
     "next": "16.3.0",
     "postcss": "8.4.25",
-    "react": "19.2.8",
-    "react-dom": "19.2.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-responsive-carousel": "^3.2.23",
     "react-youtube": "^10.1.0",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.6"
   },
-  "overrides": {
-    "@types/react": "19.2.18",
-    "@types/react-dom": "19.2.4"
-  },
-  "devDependencies": {}
-  ,
   "engines": {
     "node": "24.x"
+  }
+  ,
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
   }
 }

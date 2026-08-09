@@ -13,7 +13,7 @@ export default function AboutConnor() {
           <img
             src="../img/connor.jpg"
             alt="Connor"
-            className="object-cover object-left h-[400px] w-[400px] md:col-span-1"
+            className="object-cover object-left h-[400px] w-[400px] mb-6 md:col-span-1"
           />
         </div>
         <div className="px-6 pb-6 font-Quattrocento md:col-span-2 text-justify">

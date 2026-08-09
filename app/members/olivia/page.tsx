@@ -41,7 +41,7 @@ export default function AboutOlivia() {
             <p className='mb-4'>
               Olivia has performed across the world in places such as China, the Musikverein (Vienna), the Estates
               Theater (Prague), Carnegie Hall, and the Kennedy Center. She won the Marie Speziale Orchestra Mock
-              Audition and a Conn-Selmer horn at the 2022 International Women’s Brass Conference. She recently won the
+              Audition and a Conn-Selmer horn at the 2022 International Women&apos;s Brass Conference. She recently won the
               West Point Band 2nd Horn audition and will join the Band in April. Former positions include Principal Horn
               of the Bay Atlantic Symphony, 2nd Horn of Symphony in C, and Substitute positions with the Hawaii,
               Bozeman, Northeastern Pennsylvania Philharmonic, Harrisburg, and New World Symphonies.

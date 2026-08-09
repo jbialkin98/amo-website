@@ -53,6 +53,7 @@ export default function Media() {
                 </div>
             </div>
             <div className="flex flex-col gap-5 items-center m-5 md:grid md:grid-cols-[repeat(auto-fill,492px)] md:justify-center md:auto-cols-max ">
+                <YouTube videoId="eJeTUa2TeBw" opts={opts}/>
                 <YouTube videoId="W0SCNNUysjA" opts={opts}/>
                 <YouTube videoId="vq1BQqn9bBE" opts={opts}/>
                 <YouTube videoId="QfcOW6ZbVfw" opts={opts}/>

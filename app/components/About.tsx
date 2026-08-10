@@ -14,19 +14,19 @@ export default function About() {
           2020 as a group of friends wanting to safely make music outside during
           a pandemic. Amo has since graduated from those informal meetings to
           touring the country. Composed of Yale School of Music alumni, the
-          ensemble is based in the Tri-State area and is passionate about
-          education, community engagement, and performance. Together, they have
-          spent summers at the Norfolk Chamber Music Festival and Avaloch Farms
-          Music Institute. In 2022, they were named Gold Medalist winners of the
-          Cambridge International Music Competition and first prize winners in
-          the BTHVN Wien Competition. They also advanced as finalists in the
-          Charleston International Music Competition and Amadeus International
-          Music Competition. Most recently, Amo Brass was a Finalist
-          Prize-winner at the Plowman Chamber Music Competition, and also
-          received the ABQ Prize at the 50th Fischoff Competition, becoming one
-          of the few brass ensembles to advance in the past decade. They
-          regularly conduct educational outreach tours where they perform for
-          and work with students across the country.
+          ensemble is passionate about education, community engagement, and
+          performance. Together, they have spent summers at the Norfolk Chamber
+          Music Festival and Avaloch Farms Music Institute. In 2022, they were
+          named Gold Medalist winners of the Cambridge International Music
+          Competition and first prize winners in the BTHVN Wien Competition.
+          They also advanced as finalists in the Charleston International Music
+          Competition and Amadeus International Music Competition. Most
+          recently, Amo Brass was a Finalist Prize-winner at the Plowman Chamber
+          Music Competition, and also received the ABQ Prize at the 50th
+          Fischoff Competition, becoming one of the few brass ensembles to
+          advance in the past decade. They regularly conduct educational
+          outreach tours where they perform for and work with students across
+          the country.
         </p>
         <p className="mb-4">
           Amo Brass frequently works with local organizations and nonprofits,

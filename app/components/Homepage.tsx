@@ -45,10 +45,10 @@ export default function Homepage() {
         <p className="max-w-[60%] md:w-[40%] md:max-w-lg pb-3 my-3">
           Amo Brass is a chamber music ensemble which blends musical
           entertainment with artistic excellence. Composed of Yale School of
-          Music alumni, the ensemble is based in the Tri-state area and is
-          passionate about education, outreach, and performance. Amo Brass
-          frequently works with local organizations and non-profits, and firmly
-          believes in balancing world class artistry with community partnership.
+          Music alumni, the ensemble is passionate about education, outreach,
+          and performance. Amo Brass frequently works with local organizations
+          and non-profits, and firmly believes in balancing world class artistry
+          with community partnership.
         </p>
 
         <p className="max-w-[60%] md:w-[40%] md:max-w-lg pb-3 my-3">
